@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <h1>{{clist.question_text}}</h1>
+    <hr/>
+    <form method="post" action="{% url 'vote' %}">
+    <input type="hidden" name="question_id" value="{{clist.id}}"> <!-- 이런식으로 hidden으로 형태는 안보이게 하되 값은 넣어서 보내준다. -->
+        {% csrf_token%} <!-- django 에서 post를 쓸때는 csrf 토큰을 사용한다. 보안을 위해서 이다. -->
+        {% for  choice in clist.choice_set.all%}<!--//  xxx_set.all 은  템플릿쪽에서 사용하는 코드로 모든 객체들을 가져온다.  -->
+    <input type="radio"
+           name="choice"
+           value="{{choice.id}}"> <!-- name 이라는 것이 변수 이름이다.-->
+    <label>
+        {{ choice.choice_text}}
+    </label><br/>
+    {% endfor %}
+        <p/>
+        <input type="submit" value="VOTE">
+    </form>
+</body>
+</html>

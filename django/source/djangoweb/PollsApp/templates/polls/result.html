@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <h1>{{question.question_text}}</h1>
+    <hr/>
+
+    <ul>
+        {% for choice in question.choice_set.all%}
+            <li>{{choice.choice_text}} - {{choice.votes}}</li>
+        {% endfor %}
+    </ul>
+    <p/>
+    <a href="{% url 'index' %}">첫 페이지로 이동</a> <!--페이지가 url 을 찾는거다 그래서 이 url로 보낸다-->
+</body>
+</html>
