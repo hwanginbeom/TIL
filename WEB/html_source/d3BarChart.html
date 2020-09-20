@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <script src='https://d3js.org/d3.v4.min.js'></script>
+
+  <title>Document</title>
+
+ </head>
+ <body>
+	
+	<script>
+		width = 500;
+		height = 500;
+
+		svg = d3.select('body')
+				.append('svg')
+				.attr('width', width)
+				.attr('height', height)
+				/*
+		svg.append('line')
+			.attr('x1',100)
+			.attr('x2',500)
+			.attr('y1',50)
+			.attr('y2',50)
+			.attr('stroke','black')
+			*/			
+		/*
+		svg.append('circle')
+			.attr('cx',250)
+			.attr('cy',50)
+			.attr('r',50)
+		*/
+		/*
+		svg.append('ellipse')
+			.attr('cx',250)
+			.attr('cy',50)
+			.attr('rx',150)
+			.attr('ry',50)
+		*/
+		g = svg.append('g')
+				.attr('transform',function(d,i){
+					return 'translate(0,0)'
+					})
+		elipse = g.append('ellipse')
+					.attr('cx',250)
+					.attr('cy',50)
+					.attr('rx',150)
+					.attr('ry',50)
+					.append('text')
+		g.append('text')
+			.attr('x', 150)
+			.attr('y', 50)
+			.attr('stroke', 'white')
+			.text('문자열 각인!!')
+	</script>
+ </body>
+</html>

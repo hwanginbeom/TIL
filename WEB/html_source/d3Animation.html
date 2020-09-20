@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>Document</title>
+        <script src='https://d3js.org/d3.v4.min.js'></script>
+
+ </head>
+ <body>
+
+ <script>
+ // svg - 시각화를 위한 태그영역
+	 svg = d3.select('body')
+			 .append('svg')     //svg라는 것을 추가한다.
+			 .attr('width',500)  //속성의 값을 가져오가나 추가한다.
+			 .attr('height',500)
+
+	bar1 = svg.append('rect')
+				.attr('fill','red')
+				.attr('x',100)
+				.attr('y',20)
+				.attr('height',20)
+				.attr('width',10)
+
+	bar2 = svg.append('rect')
+				.attr('fill','red')
+				.attr('x',120)
+				.attr('y',20)
+				.attr('height',20)
+				.attr('width',10)
+
+	update()
+	
+	function update(){
+		bar1.transition()
+			.ease(d3.easeLinear) //선을 그리는 함수
+			.duration(2000)
+			.attr('height',100)
+		bar2.transition()
+			.ease(d3.easeLinear)
+			.duration(2000)
+			.delay(2000)
+			.attr('height',200)
+	}
+ </script>
+  
+ </body>
+</html>
