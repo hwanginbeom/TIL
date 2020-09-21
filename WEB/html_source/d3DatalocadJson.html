@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>Document</title>
+    <script src='https://d3js.org/d3.v4.min.js'></script>
+
+ </head>
+ <body>
+  <script>
+  	var nice =''
+	d3.json("./data/names.json", function(data) {
+    d3.select('body')
+      .selectAll('p')
+      .data(data)
+      .enter()
+      .append('p')
+      .text(function(d){
+        return d.name +" , " + d.age+" , " + d.city; 
+      })
+	});
+	</script>
+ </body>
+</html>
