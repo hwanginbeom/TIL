@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+
+  <script src='https://d3js.org/d3.v4.min.js'></script>	  
+
+  <title>Document</title>
+ </head>
+ <body>
+  
+  	<script>
+	// csv() , json() , xml()
+	d3.csv('./data/info.csv' , function(data) {
+
+	    // table binding [실습 해 보세요]
+		columns = ['name','age']
+		tabulate(data,columns)
+
+	})
+	tabulate = function (data,columns) {
+    
+	table = d3.select('body').append('table')
+	thead = table.append('thead')
+	tbody = table.append('tbody') //tr이 담겨있는 body형태를 tbody라고 한다.
+
+	thead.append('tr')  //처음 thead를 만든다. 
+	     .selectAll('th')
+	     .data(columns)
+	     .enter()
+	     .append('th') //columns 만큼 th를 만든다.
+	     .text(function (d) { return d })
+
+	rows = tbody.selectAll('tr') // row를 만드는 부분
+	            .data(data)  // row의 개수를 넣어준다.
+	            .enter()
+	            .append('tr')
+	
+	cells = rows.selectAll('td')  // cells
+	    .data(function(row) {
+	    	return columns.map(function (column) { // 
+	    		return { column: column, value: row[column] }
+	      })
+      })
+      .enter()
+      .append('td')
+      .text(function (d) { return d.value })
+
+		return table;
+    }
+
+	</script>
+
+ </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
