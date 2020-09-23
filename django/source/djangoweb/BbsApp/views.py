@@ -1,4 +1,6 @@
-from django.http import HttpResponse
+import json
+
+from django.http import HttpResponse, JsonResponse
 from django.shortcuts import render, redirect
 
 # Create your views here.
@@ -108,3 +110,80 @@ def bbsRemove(request):
     Bbs.objects.get(id=id).delete()
 
     return redirect('bbs_list')  # render로 할 경우에 데이터를 가져올 수가 없다. 그래서 redirect로 한다.
+
+
+def bbsModifyForm(request):
+    id = request.POST['id']
+    board = Bbs.objects.get(id=id)  # 객체를 가져온다.
+    context = {
+        'id': request.session['user_id'],  # 이러한 방법도 가능
+        'name': request.session['user_name'],
+        'board': board
+    }
+
+    return render(request, 'modify.html', context)
+
+
+
+def bbsModify(request):
+    # id = request.GET['id']
+    board = Bbs.objects.get(id=id)  # 객체를 가져온다.
+
+    board.viewcnt = board.viewcnt + 1  # view count 부분이다.
+    board.save()
+    context = {}
+    if board is not None:
+
+        context = {
+            'id': request.session['user_id'],  # 이러한 방법도 가능
+            'name': request.session['user_name'],
+            'board': board
+        }
+
+    print('param - ', board.writer)
+    print( id)
+    return render(request, 'read.html', context)
+
+
+def bbsModify(request):
+    id = request.POST['id']
+    board = Bbs.objects.get(id=id)  # 객체를 가져온다.
+    board.title = request.POST['title']
+    board.content = request.POST['content']
+    board.save()  # 객체를 model에 저장한다.
+
+    return redirect('bbs_list')  # render로 할 경우에 데이터를 가져올 수가 없다. 그래서 redirect로 한다.
+
+
+def bbsSearch(request):
+    print('ajax json bbsSearch')
+    type = request.POST['type']
+    keyword = request.POST['keyword']
+    print("type:", type, "| keyword:", keyword)
+
+    # model
+    # select * from table where title like '%%'
+    if type == 'title':
+        boards = Bbs.objects.filter(title__startswith=keyword)
+    if type == 'writer':
+        boards = Bbs.objects.filter(writer__startswith=keyword)
+    print("boards--------" , boards)
+    data = []
+    for board in boards :
+        data.append({
+            'id'        : board.id,
+            'title'     : board.title,
+            'writer'    : board.writer,
+            'regdate'   : board.regdate,
+            'viewcnt'   : board.viewcnt
+        })
+    print(data)
+    # return HttpResponse(json.dumps(dict), content_type='application/json')
+    return JsonResponse(data, safe=False)  #  이 부분은 원래 리스트로 받을수 없는데 이 명령어를 통해 리스트를 통해 받을수 있게 한다.
+
+
+
+
+
+
+

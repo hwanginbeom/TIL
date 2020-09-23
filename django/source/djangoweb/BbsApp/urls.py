@@ -13,5 +13,8 @@ urlpatterns = [
     path('bbs_register/', views.bbsRegister, name='bbs_register'),
     path('bbs_read/<int:id>', views.bbsRead, name='bbs_read'),  # 이렇게 get 방식에서 값을 받아온 것을 이런 형식으로 받아준다.
     path('bbs_remove/', views.bbsRemove, name='bbs_remove'),
+    path('bbs_modifyForm/', views.bbsModifyForm, name='bbs_modifyForm'),
+    path('bbs_modify/', views.bbsModify, name='bbs_modify'),
+    path('bbs_search/', views.bbsSearch, name='bbs_search'),
 
 ]

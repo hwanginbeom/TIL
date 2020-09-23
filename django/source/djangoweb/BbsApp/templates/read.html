@@ -18,6 +18,7 @@
 	{% csrf_token %}
 	<input type='hidden' name='id' value="{{board.id}}">
 
+
 </form>
 
 <div class="box-body">
@@ -58,6 +59,10 @@ $(document).ready(function(){
    })
    $('.btn-danger').click(function(){
       $('#removeFrm').attr('action', '../bbs_remove/');
+      $('#removeFrm').submit();
+   })
+    $('.btn-warning').click(function(){
+      $('#removeFrm').attr('action', '../bbs_modifyForm/');
       $('#removeFrm').submit();
    })
 });
