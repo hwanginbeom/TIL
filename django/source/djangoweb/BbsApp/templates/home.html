@@ -13,6 +13,18 @@
 					<h3 class="box-title">Home Page</h3>
 				</div>
 				<!-- /.box-header -->
+				<div class="box-body">
+					<form method="post" action="{% url 'attachCsv' %}" enctype="multipart/form-data">
+						   {% csrf_token %}
+						<div class="form-group">
+							<label>.csv파일 업로드 해주세요</label>
+							<input type="file" class="form-control" name="csv_file">
+						</div>
+						<button type="submit" class="btn btn-info">
+							등록
+						</button>
+					</form>
+				</div>
 			</div>
 			<!-- /.box -->
 		</div>

@@ -16,5 +16,7 @@ urlpatterns = [
     path('bbs_modifyForm/', views.bbsModifyForm, name='bbs_modifyForm'),
     path('bbs_modify/', views.bbsModify, name='bbs_modify'),
     path('bbs_search/', views.bbsSearch, name='bbs_search'),
+    path('csvToModel/', views.csvToModel, name='csvToModel'),
+    path('attachCsv/', views.csvUpload, name='attachCsv'),
 
 ]

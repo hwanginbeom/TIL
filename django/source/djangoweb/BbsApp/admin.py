@@ -4,3 +4,4 @@ from .models import *
 
 admin.site.register(BbsUserRegister)
 admin.site.register(Bbs)
+admin.site.register(Seops)

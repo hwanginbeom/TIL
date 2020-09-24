@@ -4,8 +4,9 @@ from django.http import HttpResponse, JsonResponse
 from django.shortcuts import render, redirect
 
 # Create your views here.
-from .models import BbsUserRegister, Bbs
+from .models import BbsUserRegister, Bbs, Seops
 
+import csv
 
 def loginForm(request):
     if request.session.get('user_id'): # property로 접근
@@ -182,8 +183,35 @@ def bbsSearch(request):
     return JsonResponse(data, safe=False)  #  이 부분은 원래 리스트로 받을수 없는데 이 명령어를 통해 리스트를 통해 받을수 있게 한다.
 
 
+def csvToModel(request):
+    path = 'C:/Users\hwang in beom/Desktop/wow.csv'  # 경로 지정
+    file = open(path)
+    reader = csv.reader(file)
+    print('-----', reader)
+    list = []
+    for row in reader:
+        list.append(Seops(  name=row[0],
+                            img=row[1],
+                            status=row[2]))
+    Seops.objects.bulk_create(list)  # 이런식으로 리스트를 한 번에 넣는다.
+    Seops.objects.values()  # 데이터를 가져오는 작업
+
+    return HttpResponse('create model ~~')
 
 
-
-
-
+def csvUpload(request):
+    file = request.FILES['csv_file']
+    print('----', file)
+    if not file.name.endswith('.csv'):  # 파일네임의 끝 부분이 .csv가 아니면
+        return redirect('loginForm')  # 잘못 로그인 했을때 로그인 폼으로 보낸다. 그러면 데이터를 가지고 있는 상태로 갈 수 있따.
+    result_file = file.read().decode('utf-8').splitlines()  # 파일을 읽는데 UTF-8 방식으로 decode를 하고 split 한것을 result_file에 넣는다.
+    reader = csv.reader(result_file)    # csv 를 읽는다.
+    list = []
+    for row in reader:  # 값을 하나씩 받아와 list에 넣는다.
+        print(row)
+        list.append(Seops(name=row[0],  #컬럼 순서를 깅거해서 넣는다.
+                          img=row[1],
+                          status=row[2]))
+    file.close()
+    Seops.objects.bulk_create(list)    # list 들어 있는 값을 Seops에 넣는다
+    return redirect('loginForm')
