@@ -39,7 +39,8 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'helloApp',
     'PollsApp',
-    'BbsApp'
+    'BbsApp',
+    'ChartApp',
 ]
 
 MIDDLEWARE = [
