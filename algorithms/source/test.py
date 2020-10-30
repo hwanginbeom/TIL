@@ -1,8 +1,23 @@
-data =[3,1,5,4,5]
-data.sort()
-print(data)
+import sys
+input = sys.stdin.readline
 
-if len(data) % 2 == 0:
-    print('wow')
-else:
-    print(len(data)//2)
+a, b = map(int, input().split())
+
+
+
+def gcd(a, b):
+    if b > 0:
+        tmp = a % b
+        a = b
+        b = tmp
+        gcd(a, b)
+    else:
+        return a
+
+
+def lcm(a, b):
+    a * b // gcd(a, b)
+
+
+print(gcd(a, b))
+print(lcm(a, b))
