@@ -23,3 +23,5 @@ for i in range(0,connect_num):
 
 visited = [False] * (computer+1)
 dfs(node, 1, visited)
+count = count-1
+print(count)
