@@ -21,6 +21,7 @@ for i in range(0,connect_num):
     node[node_num].append(connect)
     node[connect].append(node_num)
 
+print(node)
 visited = [False] * (computer+1)
 dfs(node, 1, visited)
 count = count-1
