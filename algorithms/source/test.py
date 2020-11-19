@@ -1,36 +1,31 @@
-import sys
-from collections import Counter
-value = int(sys.stdin.readline())
-value_list = [0] * value
-print(value)
-number = []
-for i in range(value):
-    number.append(int(sys.stdin.readline()))
+# max_number
+def solution(numbers):
+    number_list = []
+    for i in numbers:
+        i = str(i)
+        number_list.append( (i*4)[0:4] )
+    number_list_index = [i[0] for i in sorted(enumerate(number_list), key=lambda x: x[1])]
+    answer = ''
+    for i in number_list_index[::-1]:
+        answer = answer + str(numbers[i])
+    answer = int(answer)
+    answer = str(answer)
+    return answer
+
+numbers = 	[3, 30, 34, 5, 9]
+
+solution(numbers)
 
 
-def function1(number):
-    result = 0
-    for i in number:
-        result += i
-    result = result / len(number)
-    return round(result, 2)
+# H-index
+def solution(citations):
+    citations.sort()
+    max_value = 0
+    for i in range(len(citations)):
+        if citations[i] >= len(citations[i:]):
+            max_value = len(citations[i:])
+            break
+    answer = max_value
+    return answer
 
-def function2(number):
-    result = len(number) // 2
-    return number[result]
-
-def function3(number):
-    cnt = Counter(number)
-    result = cnt.most_common(1)[0][0]
-    return result
-
-
-# def function2(number):
-#     dict
-#     result = len(number) // 2
-#     return number[result]
-
-
-print(function1(number))
-print(function2(number))
-print(function3(number))
+solution([ 10, 11, 12, 13])

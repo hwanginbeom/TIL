@@ -15,5 +15,3 @@ else:
         d[i] = d[i-1] + d[i-2]
     print(d[value])
 
-
-ne_count[m]))
