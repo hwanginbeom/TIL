@@ -1,4 +1,4 @@
-# 1922 네트워크 연결 - 최소 스패닝 트닝
+# 1922 네트워크 연결 - 최소 스패닝 트닝 / 크루스칼 알고리즘
 import sys
 input=sys.stdin.readline
 
