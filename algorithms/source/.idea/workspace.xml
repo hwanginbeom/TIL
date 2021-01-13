@@ -1,7 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="68609606-97ea-41d2-91f2-5f2f3313409f" name="Default Changelist" comment="" />
+    <list default="true" id="68609606-97ea-41d2-91f2-5f2f3313409f" name="Default Changelist" comment="20.12.11 | source | 124.Serial number(sort)">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/113.Prefix sum(backjon).py" beforeDir="false" afterPath="$PROJECT_DIR$/113.Prefix sum(backjon).py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/115.coin(greedy).py" beforeDir="false" afterPath="$PROJECT_DIR$/115.coin(greedy).py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/124.Serial number(sort).py" beforeDir="false" afterPath="$PROJECT_DIR$/124.Serial number(sort).py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/126.RGB distance(dynamic).py" beforeDir="false" afterPath="$PROJECT_DIR$/126.RGB distance(dynamic).py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/131.network connect.py" beforeDir="false" afterPath="$PROJECT_DIR$/131.network connect(kruskalAlgorithm).py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/132.Strahler order.py" beforeDir="false" afterPath="$PROJECT_DIR$/132.Strahler order.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/66.network(DFS).py" beforeDir="false" afterPath="$PROJECT_DIR$/66.network(DFS).py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/90.trinagle.py" beforeDir="false" afterPath="$PROJECT_DIR$/90.trinagle.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/91.node.py" beforeDir="false" afterPath="$PROJECT_DIR$/91.node.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library.py" beforeDir="false" afterPath="$PROJECT_DIR$/library.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../django/source/djangoweb/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../django/source/djangoweb/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -9,107 +23,106 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/82.fibo2(dynamic).py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="19" column="23" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/library.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="325">
-              <caret line="46" column="26" selection-start-line="46" selection-start-column="26" selection-end-line="46" selection-end-column="26" />
-              <folding>
-                <element signature="e#0#10#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/84.Specific path(shot_path).py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="532">
-              <caret line="29" column="22" selection-start-line="29" selection-start-column="22" selection-end-line="29" selection-end-column="22" />
-              <folding>
-                <element signature="e#7#42#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/85.floyd_warshall.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
-              <caret line="38" column="12" selection-start-line="38" selection-start-column="12" selection-end-line="38" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/86.Exercise(floyd_warshall_min).py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="16" column="33" lean-forward="true" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/87.Unconfirmed destination(dijkstra).py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="9" column="17" lean-forward="true" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-              <folding>
-                <element signature="e#0#35#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/78.H-index(sort).py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="8" column="17" selection-end-line="19" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/83.shortest path(shortest path).py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="513">
-              <caret line="28" column="18" selection-start-line="28" selection-start-column="18" selection-end-line="28" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/77.max_number(sort).py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="6" selection-start-line="6" selection-end-line="24" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/79.Sugar delivery(dynamic).py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="18" column="43" selection-start-line="18" selection-start-column="43" selection-end-line="18" selection-end-column="43" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.5">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/132.Strahler order.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="152">
+                  <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+                  <folding>
+                    <element signature="e#0#10#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/133.Right triangle.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="197">
+                  <caret line="14" column="9" lean-forward="true" selection-end-line="15" selection-end-column="22" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/134.two number sum.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="209">
+                  <caret line="11" column="19" lean-forward="true" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/test.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="475">
+                  <caret line="25" column="38" selection-start-line="25" selection-start-column="38" selection-end-line="25" selection-end-column="38" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/86.Exercise(floyd_warshall_min).py">
+              <provider selected="true" editor-type-id="text-editor" />
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/83.shortest path(shortest path).py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="513">
+                  <caret line="28" column="18" selection-start-line="28" selection-start-column="18" selection-end-line="28" selection-end-column="18" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/84.Specific path(shot_path).py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="380">
+                  <caret line="21" column="9" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/80.one_make(dynamic).py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="513">
+                  <caret line="27" selection-start-line="27" selection-end-line="27" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/81.fibo(dynamic).py">
+              <provider selected="true" editor-type-id="text-editor" />
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/82.fibo2(dynamic).py">
+              <provider selected="true" editor-type-id="text-editor" />
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/test.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="95">
+                  <caret line="5" column="4" lean-forward="true" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="36" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -126,6 +139,15 @@
       <find>popleft</find>
       <find>sort</find>
       <find>dijkstra</find>
+      <find>min</find>
+      <find>max</find>
+      <find>input</find>
+      <find>cost</find>
+      <find>dist</find>
+      <find>union_parent</find>
+      <find>print</find>
+      <find>bfs</find>
+      <find>end</find>
     </findStrings>
     <replaceStrings>
       <replace>queue</replace>
@@ -137,58 +159,65 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/55.test.py" />
-        <option value="$PROJECT_DIR$/56.stack.py" />
-        <option value="$PROJECT_DIR$/57.queue.py" />
-        <option value="$PROJECT_DIR$/55.Log listing .py" />
-        <option value="$PROJECT_DIR$/test3.py" />
-        <option value="$PROJECT_DIR$/test2.py" />
-        <option value="$PROJECT_DIR$/58.gcd_cm.py" />
-        <option value="$PROJECT_DIR$/60.maze.py" />
-        <option value="$PROJECT_DIR$/62.sort2.py" />
-        <option value="$PROJECT_DIR$/61.sort1.py" />
-        <option value="$PROJECT_DIR$/sotr3.py" />
-        <option value="$PROJECT_DIR$/62.statistics.py" />
-        <option value="$PROJECT_DIR$/63.statistics.py" />
-        <option value="$PROJECT_DIR$/64.k_number.py" />
-        <option value="$PROJECT_DIR$/59.virus.py" />
-        <option value="$PROJECT_DIR$/66.network.py" />
-        <option value="$PROJECT_DIR$/68.coordinate alignment_2.py" />
-        <option value="$PROJECT_DIR$/69.rank sort.py" />
-        <option value="$PROJECT_DIR$/70.age sort().py" />
-        <option value="$PROJECT_DIR$/69.wrod sort (1181 sort).py" />
-        <option value="$PROJECT_DIR$/71.lope.py" />
-        <option value="$PROJECT_DIR$/72.meeting room.py" />
-        <option value="$PROJECT_DIR$/65.target_number.py" />
-        <option value="$PROJECT_DIR$/67.coordinate alignment_1.py" />
-        <option value="$PROJECT_DIR$/73.find number(Binary Search).py" />
-        <option value="$PROJECT_DIR$/74.card number(Binary Search).py" />
-        <option value="$PROJECT_DIR$/76.tree cutting(Binary Search).py" />
-        <option value="$PROJECT_DIR$/75.LAN cutting(Binary Search).py" />
-        <option value="$PROJECT_DIR$/77.max_number.py" />
-        <option value="$PROJECT_DIR$/78.H-index.py" />
-        <option value="$PROJECT_DIR$/78.H-index(sort).py" />
-        <option value="$PROJECT_DIR$/80.one_make.py" />
-        <option value="$PROJECT_DIR$/79.Sugar delivery(dynamic).py" />
-        <option value="$PROJECT_DIR$/80.one_make(dynamic).py" />
-        <option value="$PROJECT_DIR$/82.fibo2(dynamic).py" />
-        <option value="$PROJECT_DIR$/77.max_number(sort).py" />
-        <option value="$PROJECT_DIR$/84.ee.py" />
-        <option value="$PROJECT_DIR$/81.fibo(dynamic).py" />
-        <option value="$PROJECT_DIR$/library.py" />
+        <option value="$PROJECT_DIR$/98.최소 스패인.py" />
+        <option value="$PROJECT_DIR$/97.s_travel(Kruskal Algorithm).py" />
+        <option value="$PROJECT_DIR$/99.Algorithm.py" />
+        <option value="$PROJECT_DIR$/101.Final rank(Phase alignment).py" />
+        <option value="$PROJECT_DIR$/100.line up(Phase alignment).py" />
+        <option value="$PROJECT_DIR$/102.Decimal discrimination.py" />
+        <option value="$PROJECT_DIR$/103.D.py" />
+        <option value="$PROJECT_DIR$/104.abc.py" />
+        <option value="$PROJECT_DIR$/103.Decimal discrimination2.py" />
+        <option value="$PROJECT_DIR$/104.Bertrand's postulate(Decimal discrimination).py" />
+        <option value="$PROJECT_DIR$/105.aa.py" />
+        <option value="$PROJECT_DIR$/108..py" />
+        <option value="$PROJECT_DIR$/109..py" />
+        <option value="$PROJECT_DIR$/108.Sieve of Eratosthenes.py" />
+        <option value="$PROJECT_DIR$/109.Sieve of Eratosthenes.py" />
+        <option value="$PROJECT_DIR$/111..py" />
+        <option value="$PROJECT_DIR$/112.Prefix sum.py" />
+        <option value="$PROJECT_DIR$/113.Prefix sum(backjon)2.py" />
+        <option value="$PROJECT_DIR$/113.Prefix sum(backjon).py" />
+        <option value="$PROJECT_DIR$/114.Prefix sum(backjon)2.py" />
+        <option value="$PROJECT_DIR$/116.Lost parenthesis.py" />
+        <option value="$PROJECT_DIR$/116.Lost parenthesis(greedy).py" />
+        <option value="$PROJECT_DIR$/105.star.py" />
+        <option value="$PROJECT_DIR$/107.Workbook.py" />
+        <option value="$PROJECT_DIR$/106.Goldbach's Guess.py" />
+        <option value="$PROJECT_DIR$/110.Sieve of Eratosthenes wrong.py" />
+        <option value="$PROJECT_DIR$/117.N and M.py" />
+        <option value="$PROJECT_DIR$/117.N and M(4).py" />
+        <option value="$PROJECT_DIR$/115.coin(greedy).py" />
+        <option value="$PROJECT_DIR$/118.Operator embedding(implaemented).py" />
+        <option value="$PROJECT_DIR$/119.card2(stack).py" />
+        <option value="$PROJECT_DIR$/120.zero(stack).py" />
+        <option value="$PROJECT_DIR$/121.factorial(recursive).py" />
+        <option value="$PROJECT_DIR$/122..py" />
+        <option value="$PROJECT_DIR$/66.network(DFS).py" />
+        <option value="$PROJECT_DIR$/122.Complex numbering(DFS).py" />
+        <option value="$PROJECT_DIR$/123.tomato.py" />
+        <option value="$PROJECT_DIR$/123.tomato(BFS).py" />
+        <option value="$PROJECT_DIR$/124.Serial number(sort).py" />
+        <option value="$PROJECT_DIR$/125.Router installation(Binary search).py" />
+        <option value="$PROJECT_DIR$/126.RGB distance(dynamic).py" />
+        <option value="$PROJECT_DIR$/127.party(dijkstra).py" />
+        <option value="$PROJECT_DIR$/128.scale(floyd warshall).py" />
+        <option value="$PROJECT_DIR$/129.soHot(heap).py" />
+        <option value="$PROJECT_DIR$/130.friend(DisjointSet).py" />
+        <option value="$PROJECT_DIR$/131.network connect.py" />
+        <option value="$PROJECT_DIR$/131.network connect(kruskalAlgorithm).py" />
         <option value="$PROJECT_DIR$/test.py" />
-        <option value="$PROJECT_DIR$/83.shortest path(shortest path).py" />
-        <option value="$PROJECT_DIR$/84.Specific path(shot_path).py" />
-        <option value="$PROJECT_DIR$/86.Exercise(floyd_warshall_min).py" />
-        <option value="$PROJECT_DIR$/85.floyd_warshall.py" />
-        <option value="$PROJECT_DIR$/87.Unconfirmed destination().py" />
+        <option value="$PROJECT_DIR$/132.Strahler order.py" />
+        <option value="$PROJECT_DIR$/133.Right triangle.py" />
+        <option value="$PROJECT_DIR$/134.two number sum.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="949" />
-    <option name="width" value="980" />
-    <option name="height" value="1031" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="562" />
+    <option name="y" value="178" />
+    <option name="width" value="1455" />
+    <option name="height" value="726" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -196,6 +225,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -203,15 +233,18 @@
               <item name="source" type="b2602c69:ProjectViewProjectNode" />
               <item name="source" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="source" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../final/source/global-master" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -225,8 +258,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.84.Specific path(shot_path)">
-    <configuration name="83.shortest path(shortest path)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.134.two number sum">
+    <configuration name="129.soHot(heap)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="source" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -238,7 +271,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/83.shortest path(shortest path).py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/129.soHot(heap).py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -247,7 +280,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="84.Specific path(shot_path)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="132.Strahler order" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="source" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -259,7 +292,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/84.Specific path(shot_path).py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/132.Strahler order.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -268,7 +301,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="85.floyd_warshall" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="133.Right triangle" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="source" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -280,7 +313,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/85.floyd_warshall.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/133.Right triangle.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -289,7 +322,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="library" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="134.two number sum" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="source" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -301,7 +334,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/library.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/134.two number sum.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -333,11 +366,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.84.Specific path(shot_path)" />
-        <item itemvalue="Python.83.shortest path(shortest path)" />
-        <item itemvalue="Python.85.floyd_warshall" />
-        <item itemvalue="Python.library" />
+        <item itemvalue="Python.134.two number sum" />
+        <item itemvalue="Python.133.Right triangle" />
+        <item itemvalue="Python.132.Strahler order" />
         <item itemvalue="Python.test" />
+        <item itemvalue="Python.129.soHot(heap)" />
       </list>
     </recent_temporary>
   </component>
@@ -351,34 +384,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1603840071531</updated>
-    </task>
-    <task id="LOCAL-00001" summary="20.11.13 | Binary Search | 75.lan cutting">
-      <created>1605271832523</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1605271832524</updated>
-    </task>
-    <task id="LOCAL-00002" summary="20.11.13 | Binary Search | 76.tree cutting">
-      <created>1605271957668</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1605271957668</updated>
-    </task>
-    <task id="LOCAL-00003" summary="20.11.13 | sort_ | 77.max_number">
-      <created>1605531936951</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1605531936951</updated>
-    </task>
-    <task id="LOCAL-00004" summary="20.11.13 | sort | 78.H-index">
-      <created>1605532048670</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1605532048670</updated>
     </task>
     <task id="LOCAL-00005" summary="20.11.13 | dynamic | 80.one_make">
       <created>1605543603424</created>
@@ -429,53 +434,347 @@
       <option name="project" value="LOCAL" />
       <updated>1605791140888</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="20.11.22 | source | 88.kcm_travel">
+      <created>1606035928525</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1606035928525</updated>
+    </task>
+    <task id="LOCAL-00013" summary="20.11.22 | source | 90.trinagle">
+      <created>1606053068766</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1606053068767</updated>
+    </task>
+    <task id="LOCAL-00014" summary="20.11.22 | source | 91.node_shorter">
+      <created>1606053109735</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1606053109735</updated>
+    </task>
+    <task id="LOCAL-00015" summary="20.11.25 | source | 89.N number">
+      <created>1606314835000</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1606314835000</updated>
+    </task>
+    <task id="LOCAL-00016" summary="20.11.25 | source(disjoint sets) | 94.friend network">
+      <created>1606314873428</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1606314873428</updated>
+    </task>
+    <task id="LOCAL-00017" summary="20.11.26 | source(disjoint sets) | 95.Disjoint sets cycle">
+      <created>1606400117174</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1606400117175</updated>
+    </task>
+    <task id="LOCAL-00018" summary="20.11.26 | source(Kruskal Algorithm) | 96.Kruskal Algorithm">
+      <created>1606400164814</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1606400164814</updated>
+    </task>
+    <task id="LOCAL-00019" summary="20.11.26 | source(Kruskal Algorithm) | 97.S_travel">
+      <created>1606400192684</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1606400192684</updated>
+    </task>
+    <task id="LOCAL-00020" summary="20.11.27 | source(Kruskal Algorithm) | 98.Minimum spanning tree">
+      <created>1606488486228</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1606488486229</updated>
+    </task>
+    <task id="LOCAL-00021" summary="20.11.27 | source | 99.phase alignment Algorithm">
+      <created>1606488517290</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1606488517290</updated>
+    </task>
+    <task id="LOCAL-00022" summary="20.11.27 | source | 100.line up(phase alignment Algorithm)">
+      <created>1606488544647</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1606488544647</updated>
+    </task>
+    <task id="LOCAL-00023" summary="20.11.28 | source | 101.Final rank (Phase alignment)">
+      <created>1606571829504</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1606571829506</updated>
+    </task>
+    <task id="LOCAL-00024" summary="20.11.28 | source | 102. Decimal discrimination">
+      <created>1606571929890</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1606571929890</updated>
+    </task>
+    <task id="LOCAL-00025" summary="20.11.30 | source | 103. Decimal discrimination2">
+      <created>1606694791303</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1606694791304</updated>
+    </task>
+    <task id="LOCAL-00026" summary="20.11.30 | source | 104. Bertand's postulate(Decimal discrimination2)">
+      <created>1606694836990</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1606694836990</updated>
+    </task>
+    <task id="LOCAL-00027" summary="20.12.01 | source | 111. Two Point">
+      <created>1606823750861</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1606823750862</updated>
+    </task>
+    <task id="LOCAL-00028" summary="20.12.02 | source | 112. Prefix sum">
+      <created>1606835958177</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1606835958177</updated>
+    </task>
+    <task id="LOCAL-00029" summary="20.12.02 | source | 113.Prefix sum(backjon)">
+      <created>1606843240048</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1606843240048</updated>
+    </task>
+    <task id="LOCAL-00030" summary="20.12.02 | source | 113.Prefix sum(backjon)2">
+      <created>1606843258881</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1606843258881</updated>
+    </task>
+    <task id="LOCAL-00031" summary="20.12.03 | source | 113.coin(greedy)">
+      <created>1607005686980</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1607005686980</updated>
+    </task>
+    <task id="LOCAL-00032" summary="20.12.04 | source | 116.Lost parenthesis(greedy)">
+      <created>1607008512026</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1607008512026</updated>
+    </task>
+    <task id="LOCAL-00033" summary="20.12.04 | source | 105.star(Minimum height tree)">
+      <created>1607013404079</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1607013404080</updated>
+    </task>
+    <task id="LOCAL-00034" summary="20.12.04 | source | 106.Goldbach's Guess(Eratosthenes' sieve)">
+      <created>1607013460791</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1607013460791</updated>
+    </task>
+    <task id="LOCAL-00035" summary="20.12.04 | source | 107.work book(Phase alignment)">
+      <created>1607013500279</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1607013500279</updated>
+    </task>
+    <task id="LOCAL-00036" summary="20.12.04 | source | 117.N and M(backtracking)">
+      <created>1607096587996</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1607096587996</updated>
+    </task>
+    <task id="LOCAL-00037" summary="20.12.04 | source | 118.Operator embedding(backtracking)">
+      <created>1607096623030</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1607096623030</updated>
+    </task>
+    <task id="LOCAL-00038" summary="20.12.07 | source | 120.zero(stack)">
+      <created>1607350487919</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1607350487919</updated>
+    </task>
+    <task id="LOCAL-00039" summary="20.12.08 | source | 121.factorial(recursive)">
+      <created>1607433848024</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1607433848024</updated>
+    </task>
+    <task id="LOCAL-00040" summary="20.12.09 | source | 122.complex numbering(DFS)">
+      <created>1607522397246</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1607522397246</updated>
+    </task>
+    <task id="LOCAL-00041" summary="20.12.10 | source | 123.TOMATO(BFS)">
+      <created>1607611009364</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1607611009364</updated>
+    </task>
+    <task id="LOCAL-00042" summary="20.12.11 | source | 124.Serial number(sort)">
+      <created>1607696040954</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1607696040954</updated>
+    </task>
+    <task id="LOCAL-00043" summary="20.12.14 | source | 125.Router installation(Binary search)">
+      <created>1607957786349</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1607957786350</updated>
+    </task>
+    <task id="LOCAL-00044" summary="20.12.16 | source | 126.RGB distance(dynamic)">
+      <created>1608044627951</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1608044627951</updated>
+    </task>
+    <task id="LOCAL-00045" summary="20.12.16 | source | 127.party(dijkstra)">
+      <created>1608119409087</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1608119409087</updated>
+    </task>
+    <task id="LOCAL-00046" summary="20.12.17 | source | 128.scale(floyd warshall)">
+      <created>1608207556857</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1608207556857</updated>
+    </task>
+    <task id="LOCAL-00047" summary="20.12.18 | source | 129.SoHot(heap)">
+      <created>1608294855218</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1608294855218</updated>
+    </task>
+    <task id="LOCAL-00048" summary="20.12.22 | source | 130.friend(DisjoinSet)">
+      <created>1608573978224</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1608573978225</updated>
+    </task>
+    <task id="LOCAL-00049" summary="20.12.25 | source | 110.Siece of Eratosthenes wrong">
+      <created>1608905486073</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1608905486074</updated>
+    </task>
+    <task id="LOCAL-00050" summary="20.12.28 | source | 131.network connect">
+      <created>1609151071948</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1609151071949</updated>
+    </task>
+    <task id="LOCAL-00051" summary="20.12.29 | source | 132.Strahler order(Phase alignment)">
+      <created>1609253712847</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1609253712848</updated>
+    </task>
+    <task id="LOCAL-00052" summary="20.12.30 | source | 133.Right triangle">
+      <created>1609321251577</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1609321251578</updated>
+    </task>
+    <task id="LOCAL-00053" summary="20.12.31 | source | 134.two number sum">
+      <created>1609414333342</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1609414333342</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="633" y="0" width="653" height="687" extended-state="0" />
+    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3322091" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6236842" visible="true" weight="0.17894737" />
+      <window_info id="Structure" order="1" sideWeight="0.3763158" side_tool="true" visible="true" weight="0.17894737" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.45101213" weight="0.32384342" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.60647774" weight="0.37544483" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.7459416" weight="0.28390595" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49848714" weight="0.30278233" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.54898787" side_tool="true" visible="true" weight="0.32384342" />
+      <window_info anchor="bottom" id="Python Console" order="10" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="R Graphics" order="3" />
+      <window_info anchor="right" id="R Packages" order="4" weight="0.11497976" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16518219" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.48340082" weight="0.28647688" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.48178136" visible="true" weight="0.2846975" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.62186235" weight="0.45907474" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.7470489" visible="true" weight="0.13176896" />
+      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.7470489" weight="0.13176896" />
       <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49848714" weight="0.30278233" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.2529511" side_tool="true" visible="true" weight="0.13176896" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.51821864" side_tool="true" visible="true" weight="0.2846975" />
       <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="R Graphics" order="3" />
       <window_info anchor="right" id="R Packages" order="4" weight="0.15708502" />
-    </layout>
-    <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21052632" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3255814" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39180326" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Python Console" order="10" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="R Graphics" order="3" />
-      <window_info anchor="right" id="R Packages" order="4" visible="true" weight="0.15708502" />
     </layout-to-restore>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -519,18 +818,32 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="20.11.13 | Binary Search | 75.lan cutting" />
-    <MESSAGE value="20.11.13 | Binary Search | 76.tree cutting" />
-    <MESSAGE value="20.11.13 | sort_ | 77.max_number" />
-    <MESSAGE value="20.11.13 | sort | 78.H-index" />
-    <MESSAGE value="20.11.13 | dynamic | 80.one_make" />
-    <MESSAGE value="20.11.13 | dynamic | 79.suger delivery" />
-    <MESSAGE value="20.11.18 | dynamic | 81.fibo" />
-    <MESSAGE value="20.11.18 | dynamic | 82.fibo2" />
-    <MESSAGE value="20.11.19 | source_shortest path | 83.shot path" />
-    <MESSAGE value="20.11.19 | source-shot path | 84.specific path" />
-    <MESSAGE value="20.11.19 | source | 85.floyd_warshall" />
-    <option name="LAST_COMMIT_MESSAGE" value="20.11.19 | source | 85.floyd_warshall" />
+    <MESSAGE value="20.12.02 | source | 113.Prefix sum(backjon)" />
+    <MESSAGE value="20.12.02 | source | 113.Prefix sum(backjon)2" />
+    <MESSAGE value="20.12.03 | source | 113.coin(greedy)" />
+    <MESSAGE value="20.12.04 | source | 116.Lost parenthesis(greedy)" />
+    <MESSAGE value="20.12.04 | source | 105.star(Minimum height tree)" />
+    <MESSAGE value="20.12.04 | source | 106.Goldbach's Guess(Eratosthenes' sieve)" />
+    <MESSAGE value="20.12.04 | source | 107.work book(Phase alignment)" />
+    <MESSAGE value="20.12.04 | source | 117.N and M(backtracking)" />
+    <MESSAGE value="20.12.04 | source | 118.Operator embedding(backtracking)" />
+    <MESSAGE value="20.12.07 | source | 120.zero(stack)" />
+    <MESSAGE value="20.12.08 | source | 121.factorial(recursive)" />
+    <MESSAGE value="20.12.09 | source | 122.complex numbering(DFS)" />
+    <MESSAGE value="20.12.10 | source | 123.TOMATO(BFS)" />
+    <MESSAGE value="20.12.11 | source | 124.Serial number(sort)" />
+    <MESSAGE value="20.12.14 | source | 125.Router installation(Binary search)" />
+    <MESSAGE value="20.12.16 | source | 126.RGB distance(dynamic)" />
+    <MESSAGE value="20.12.16 | source | 127.party(dijkstra)" />
+    <MESSAGE value="20.12.17 | source | 128.scale(floyd warshall)" />
+    <MESSAGE value="20.12.18 | source | 129.SoHot(heap)" />
+    <MESSAGE value="20.12.22 | source | 130.friend(DisjoinSet)" />
+    <MESSAGE value="20.12.25 | source | 110.Siece of Eratosthenes wrong" />
+    <MESSAGE value="20.12.28 | source | 131.network connect" />
+    <MESSAGE value="20.12.29 | source | 132.Strahler order(Phase alignment)" />
+    <MESSAGE value="20.12.30 | source | 133.Right triangle" />
+    <MESSAGE value="20.12.31 | source | 134.two number sum" />
+    <option name="LAST_COMMIT_MESSAGE" value="20.12.31 | source | 134.two number sum" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -560,241 +873,355 @@
           <line>4</line>
           <option name="timeStamp" value="18" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/94.friend network(Disjoint sets cycle).py</url>
+          <line>21</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/105.star.py</url>
+          <line>29</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/114.Prefix sum(backjon)2.py</url>
+          <line>25</line>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/117.N and M_4((implaemented)).py</url>
+          <line>6</line>
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/121.factorial(recursive).py</url>
+          <line>8</line>
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/122.Complex numbering(DFS).py</url>
+          <line>8</line>
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/123.tomato(BFS).py</url>
+          <line>12</line>
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/124.Serial number(sort).py</url>
+          <line>29</line>
+          <option name="timeStamp" value="44" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/129.soHot(heap).py</url>
+          <line>7</line>
+          <option name="timeStamp" value="45" />
+        </line-breakpoint>
       </breakpoints>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/flask/app.py">
+    <entry file="file://$PROJECT_DIR$/100.line up(Phase alignment).py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="412">
-          <caret line="69" column="33" lean-forward="true" selection-start-line="69" selection-start-column="33" selection-end-line="69" selection-end-column="33" />
+        <state relative-caret-position="266">
+          <caret line="14" column="25" selection-start-line="14" selection-end-line="15" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/flask/__init__.py">
+    <entry file="file://$PROJECT_DIR$/101.Final rank(Phase alignment).py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="20" column="8" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
+        <state relative-caret-position="95">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test3.py" />
-    <entry file="file://$PROJECT_DIR$/test2.py" />
-    <entry file="file://$PROJECT_DIR$/sotr3.py" />
+    <entry file="file://$PROJECT_DIR$/103.Decimal discrimination2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="10" selection-start-column="10" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/104.Bertrand's postulate(Decimal discrimination).py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/109.Sieve of Eratosthenes.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="19" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/102.Decimal discrimination.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="24" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/105.star.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="4" selection-end-line="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/106.Goldbach's Guess.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="16" selection-end-line="13" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/108.Sieve of Eratosthenes.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="39" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/107.Workbook.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="551">
+          <caret line="29" column="32" selection-start-line="29" selection-start-column="32" selection-end-line="29" selection-end-column="32" />
+          <folding>
+            <element signature="e#15#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/112.Prefix sum.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="47" selection-start-line="14" selection-start-column="47" selection-end-line="14" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/113.Prefix sum(backjon).py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$USER_HOME$/Anaconda3/Lib/codecs.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6137">
-          <caret line="323" selection-start-line="323" selection-end-line="323" />
+        <state relative-caret-position="5852">
+          <caret line="308" selection-start-line="308" selection-end-line="308" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/69.wrod sort (1181 sort).py">
+    <entry file="file://$PROJECT_DIR$/111.Two point.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+        <state relative-caret-position="152">
+          <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/65.sort3(value_sort).py">
+    <entry file="file://$PROJECT_DIR$/58.gcd_cm(DFS).py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="20" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
+        <state relative-caret-position="57">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/59.virus(DFS).py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="25" column="21" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
+        <state relative-caret-position="361">
+          <caret line="19" column="51" selection-start-line="19" selection-start-column="46" selection-end-line="19" selection-end-column="51" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/73.find number(Binary Search).py">
+    <entry file="file://$PROJECT_DIR$/60.maze(BFS).py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="235">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        <state relative-caret-position="437">
+          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/72.meeting room(sort).py">
+    <entry file="file://$PROJECT_DIR$/125.Router installation(Binary search).py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3">
-          <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+        <state relative-caret-position="38">
+          <caret line="2" column="15" lean-forward="true" selection-start-line="2" selection-end-line="3" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/71.lope(sort).py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/70.age sort(10814 sort).py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" selection-start-line="3" selection-end-line="3" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/68.coordinate alignment_2(quick sort).py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/66.network(DFS).py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="12" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/67.coordinate alignment_1(quick sort).py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/64.k_number(sort).py">
+    <entry file="file://$PROJECT_DIR$/124.Serial number(sort).py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
-          <caret line="6" column="33" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
+          <caret line="69" column="28" selection-start-line="69" selection-start-column="28" selection-end-line="69" selection-end-column="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/63.statistics.py">
+    <entry file="file://$PROJECT_DIR$/123.tomato(BFS).py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="6" column="44" selection-start-line="6" selection-start-column="44" selection-end-line="6" selection-end-column="44" />
+        <state relative-caret-position="589">
+          <caret line="31" selection-start-line="31" selection-end-line="31" selection-end-column="28" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/62.sort2.py">
+    <entry file="file://$PROJECT_DIR$/122.Complex numbering(DFS).py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="30" column="8" lean-forward="true" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/121.factorial(recursive).py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret selection-end-line="3" selection-end-column="31" />
+          <caret column="13" selection-end-line="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/61.sort1.py">
+    <entry file="file://$PROJECT_DIR$/120.zero(stack).py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="3" selection-end-column="37" />
+        <state relative-caret-position="152">
+          <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/60.maze(BFS).py">
+    <entry file="file://$PROJECT_DIR$/118.Operator embedding(backtracking).py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-301">
-          <caret line="6" selection-start-line="6" selection-end-line="7" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/58.gcd_cm(DFS).py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="24" column="21" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/57.queue(queueu).py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="15" column="29" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
+        <state relative-caret-position="608">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
           <folding>
-            <element signature="e#208#218#0" expanded="true" />
+            <element signature="e#20#30#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/56.stack(stack).py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-247">
-          <caret line="12" selection-start-line="12" selection-end-line="12" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/55.Log listing(implemented) .py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="31" selection-start-line="4" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/74.card number(Binary Search).py">
+    <entry file="file://$PROJECT_DIR$/117.N and M_4((implaemented)).py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
-          <caret line="10" column="16" selection-start-line="10" selection-end-line="11" />
+          <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/76.tree cutting(Binary Search).py">
+    <entry file="file://$PROJECT_DIR$/116.Lost parenthesis(greedy).py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="20" selection-end-line="24" selection-end-column="13" />
+        <state relative-caret-position="95">
+          <caret line="5" column="20" selection-start-line="5" selection-end-line="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/75.LAN cutting(Binary Search).py">
+    <entry file="file://$PROJECT_DIR$/115.coin(greedy).py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="304">
           <caret line="16" selection-start-line="16" selection-end-line="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/54.greedy.py">
+    <entry file="file://$PROJECT_DIR$/114.Prefix sum(backjon)2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        <state relative-caret-position="133">
+          <caret line="7" column="21" selection-start-line="7" selection-end-line="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/80.one_make(dynamic).py">
+    <entry file="file://$PROJECT_DIR$/79.Sugar delivery(dynamic).py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="20" selection-start-line="2" selection-end-line="3" />
+        <state relative-caret-position="171">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test.py">
+    <entry file="file://$PROJECT_DIR$/126.RGB distance(dynamic).py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
+          <caret line="15" column="44" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="44" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/81.fibo(dynamic).py">
+    <entry file="file://$PROJECT_DIR$/library.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        <state relative-caret-position="608">
+          <caret line="32" column="27" selection-end-line="40" selection-end-column="30" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/82.fibo2(dynamic).py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="19" column="23" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/87.Unconfirmed destination(dijkstra).py">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/84.Specific path(shot_path).py">
+    <entry file="file://$PROJECT_DIR$/127.party(dijkstra).py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="532">
-          <caret line="29" column="22" selection-start-line="29" selection-start-column="22" selection-end-line="29" selection-end-column="22" />
+        <state relative-caret-position="665">
+          <caret line="36" column="37" selection-start-line="36" selection-start-column="37" selection-end-line="36" selection-end-column="37" />
           <folding>
-            <element signature="e#7#42#0" expanded="true" />
+            <element signature="e#0#10#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/78.H-index(sort).py">
+    <entry file="file://$PROJECT_DIR$/128.scale(floyd warshall).py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="17" selection-end-line="19" selection-end-column="14" />
+        <state relative-caret-position="494">
+          <caret line="26" column="26" selection-start-line="26" selection-start-column="26" selection-end-line="26" selection-end-column="26" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/129.soHot(heap).py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/75.LAN cutting(Binary Search).py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/66.network(DFS).py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="20" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/119.card2(stack).py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/110.Sieve of Eratosthenes wrong.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="30" column="13" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/130.friend(DisjointSet).py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/131.network connect(kruskalAlgorithm).py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/86.Exercise(floyd_warshall_min).py">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/83.shortest path(shortest path).py">
       <provider selected="true" editor-type-id="text-editor">
@@ -803,51 +1230,54 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/77.max_number(sort).py">
+    <entry file="file://$PROJECT_DIR$/84.Specific path(shot_path).py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" selection-start-line="6" selection-end-line="24" selection-end-column="17" />
+        <state relative-caret-position="380">
+          <caret line="21" column="9" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/79.Sugar delivery(dynamic).py">
+    <entry file="file://$PROJECT_DIR$/80.one_make(dynamic).py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" column="43" selection-start-line="18" selection-start-column="43" selection-end-line="18" selection-end-column="43" />
+        <state relative-caret-position="513">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/85.floyd_warshall.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="38" column="12" selection-start-line="38" selection-start-column="12" selection-end-line="38" selection-end-column="12" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/81.fibo(dynamic).py">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/library.py">
+    <entry file="file://$PROJECT_DIR$/82.fibo2(dynamic).py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/132.Strahler order.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="46" column="26" selection-start-line="46" selection-start-column="26" selection-end-line="46" selection-end-column="26" />
+        <state relative-caret-position="152">
+          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/86.Exercise(floyd_warshall_min).py">
+    <entry file="file://$PROJECT_DIR$/test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="16" column="33" lean-forward="true" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
+        <state relative-caret-position="475">
+          <caret line="25" column="38" selection-start-line="25" selection-start-column="38" selection-end-line="25" selection-end-column="38" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/87.Unconfirmed destination(dijkstra).py">
+    <entry file="file://$PROJECT_DIR$/133.Right triangle.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="17" lean-forward="true" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="197">
+          <caret line="14" column="9" lean-forward="true" selection-end-line="15" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/134.two number sum.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="19" lean-forward="true" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
         </state>
       </provider>
     </entry>

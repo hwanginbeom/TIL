@@ -14,3 +14,6 @@ for i in data:
 for _ in range(m):
     left, right = map(int, sys.stdin.readline().split())
     print(prefix_sum[right] - prefix_sum[left - 1])
+
+
+

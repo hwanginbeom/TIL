@@ -13,3 +13,4 @@ for coin in array:
     b %= coin
 
 print(count)
+

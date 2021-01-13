@@ -1,24 +1,13 @@
 def solution(triangle):
-    print(len(triangle))
-    value_list = []
-    index = 0
-    for i in range(len(triangle)):
-        for j in range( len(triangle[i])+1):
-            value_list.append(value_list[index:index + len(triangle[i])] )
-            index += len(triangle[i])
-    print(value_list)
+    dp = []
+    for t in range(1, len(triangle)):
+        for i in range(t+1):
+            if i == 0:
+                triangle[t][0] += triangle[t-1][0]
+            elif i == t:
+                triangle[t][-1] += triangle[t-1][-1]
+            else:
+                triangle[t][i] += max(triangle[t-1][i-1], triangle[t-1][i])
+    return max(triangle[-1])
 
-    a = 0
-    for i in range(0,len(triangle)):
-        for j in range( len(triangle[i]) ):
-            if i 
-            print(triangle[i][j])
-
-        # else:
-
-
-    answer = 0
-    return answer
-
-triangle = [[7], [3, 8], [8, 1, 0], [2, 7, 4, 4], [4, 5, 2, 6, 5]]
-solution(triangle)
+solution = lambda t, l = []: max(l) if not t else solution(t[1:], [max(x,y)+z for x,y,z in zip([0]+l, l+[0], t[0])])

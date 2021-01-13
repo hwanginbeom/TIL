@@ -34,5 +34,5 @@ def solution(n, computers):
 n = 3
 
 computers = [[1, 1, 0], [1, 1, 0], [0, 0, 1]]
-solution(n, computers)
+print(solution(n, computers))
 
