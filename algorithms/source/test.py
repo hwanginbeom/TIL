@@ -1,17 +1,13 @@
-import sys
-import collections
 import math
 
-input = sys.stdin.readline
-# my_str = str(int(input()))
-my_str = '99991236'
-list_value=[]
-for i in range (0,10):
-    list_value.append(my_str.count(str(i)))
+n = list(map(int,input()))
 
-list_value[9] = math.ceil((list_value[9]+list_value[6])/2)
-list_value[6] = list_value[9]
-print(list_value)
-# print(list_value[9]+list_value[6])
-print( max(list_value) )
+set_count = [0 for _ in range(10)]
 
+for i in range(len(n)) :
+    set_count[n[i]] += 1
+print(set_count)
+set_count[6] = set_count[9] = math.ceil((set_count[6]+set_count[9])/2)
+answer = max(set_count)
+
+print(answer)
