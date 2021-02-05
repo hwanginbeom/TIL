@@ -10,10 +10,10 @@ for i in n_list:
     for j in range(len(i)):
         if len(stack) < 1:
             stack.append(i[j])
-        else :
+        else:
             if stack[-1] == i[j]:
                 stack.pop()
     else:
         if len(stack) == 0:
-            count +=1
+            count += 1
 print(count)
