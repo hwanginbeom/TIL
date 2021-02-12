@@ -1,13 +1,24 @@
-import math
+count = 0
+def dfs(graph, v, visited):
+    visited[v] = True
+    global count
+    count += 1
+    for i in graph[v]:
+        if not visited[i]:
+            dfs(graph, i, visited)
 
-n = list(map(int,input()))
+computer = int(input())
+connect_num = int(input())
+node = []
 
-set_count = [0 for _ in range(10)]
+for i in range(0,computer+1):
+    node.append([])
+for i in range(0,connect_num):
+    node_num, connect = list(map(int, input().split()))
+    node[node_num].append(connect)
+    node[connect].append(node_num)
 
-for i in range(len(n)) :
-    set_count[n[i]] += 1
-print(set_count)
-set_count[6] = set_count[9] = math.ceil((set_count[6]+set_count[9])/2)
-answer = max(set_count)
-
-print(answer)
+visited = [False] * (computer+1)
+dfs(node, 1, visited)
+count = count-1
+print(count)
