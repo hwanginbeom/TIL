@@ -13,7 +13,7 @@ elif n == 2 :
 elif n == 3 :
     print(max(score[0]+score[2], score[1]+score[2]))
 
-else :
+else:
     dp.append(score[0])
     dp.append(max(score[0]+score[1], score[1]))
     dp.append(max(score[0]+score[2], score[1]+score[2]))
@@ -21,3 +21,4 @@ else :
     for i in range(3, n):
         dp.append(max(dp[i-2]+score[i], dp[i-3]+score[i-1]+score[i]))
     print(dp[n-1])
+    print(dp)

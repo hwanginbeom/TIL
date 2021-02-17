@@ -11,14 +11,13 @@ while(start <= end):
     mid = (start+end) // 2
     for x in budget_list:
         if x >= mid:
-            total += mid #떡의 양이 부족한 경우 덜 자르기
+            total += mid
         else:
             total += x
-
-    if total <= total_budget:
-        start = mid + 1#떡의 양이 충분한 경우 더 자르기
-        result = mid
-    else:
-        # 최대한 덜 잘랐을 때가 정답이므로 , 여기에 result에 기록
+    if total > total_budget:
         end = mid - 1
-print(end)
+    else:
+        result = mid
+        start = mid + 1
+
+print(result)
