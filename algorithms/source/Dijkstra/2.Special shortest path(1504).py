@@ -46,7 +46,7 @@ one_node, two_node = map(int, input().split())
 
 def dijkstra(distance,start):
     q = []
-    distance = distance[:]
+    distance = distance[:] # 이부분이 핵심이다. 이렇게 넣어줘야 각각의 distance를 만들어 줄수있다.
     # 시작 노드에 대해서 초기화
     heapq.heappush(q,(0,start))
     distance[start] = 0
