@@ -1,0 +1,58 @@
+
+
+--22.String, Date - 여러개 이름 찾기
+--#동물 보호소에 들어온 동물 중 이름이 Lucy, Ella, Pickle, Rogan, Sabrina, Mitty인 동물의 아이디와 이름, 성별 및 중성화 여부를 조회하는 SQL 문을 작성해주세요.
+
+
+# SELECT ANIMAL_ID, NAME, SEX_UPON_INTAKE
+# FROM ANIMAL_INS
+# WHERE NAME LIKE 'Lucy' OR NAME LIKE 'Ella' OR NAME LIKE 'Pickle' OR NAME LIKE 'Rogan' OR NAME LIKE 'Sabrina' OR NAME LIKE 'Mitty'
+# ORDER BY ANIMAL_ID
+
+
+SELECT ANIMAL_ID, NAME, SEX_UPON_INTAKE
+FROM ANIMAL_INS
+WHERE NAME in ('Lucy','Ella', 'Pickle', 'Rogan', 'Sabrina', 'Mitty')
+ORDER BY ANIMAL_ID
+
+
+--23.문자가 들어간 이름 찾기
+--# 보호소에 돌아가신 할머니가 기르던 개를 찾는 사람이 찾아왔습니다. 이 사람이 말하길 할머니가 기르던 개는 이름에 'el'이 들어간다고 합니다. 동물 보호소에 들어온 동물 이름 중, 이름에 "EL"이 들어가는 개의 아이디와 이름을 조회하는 SQL문을 작성해주세요. 이때 결과는 이름 순으로 조회해주세요. 단, 이름의 대소문자는 구분하지 않습니다.
+
+
+SELECT ANIMAL_ID, NAME
+FROM ANIMAL_INS
+WHERE NAME LIKE '%EL%' AND ANIMAL_TYPE = 'DOG'
+ORDER BY NAME
+
+
+--24.CASE로 IF 조건 만들기
+--#보호소의 동물이 중성화되었는지 아닌지 파악하려 합니다. 중성화된 동물은 SEX_UPON_INTAKE 컬럼에 'Neutered' 또는 'Spayed'라는 단어가 들어있습니다. 동물의 아이디와 이름, 중성화 여부를 아이디 순으로 조회하는 SQL문을 작성해주세요. 이때 중성화가 되어있다면 'O', 아니라면 'X'라고 표시해주세요.
+
+#   CASE
+        WHEN
+        THEN
+        ELSE
+    END AS
+
+SELECT ANIMAL_ID, NAME,
+    CASE
+        WHEN
+            SEX_UPON_INTAKELIKE "%Neutered%" OR SEX_UPON_INTAKE LIKE "%Spayed%"
+        THEN
+            "O"
+        ELSE
+            'X'
+    END AS "중성화"
+FROM ANIMAL_INS
+
+
+
+--25.날짜 연산
+--#입양을 간 동물 중, 보호 기간이 가장 길었던 동물 두 마리의 아이디와 이름을 조회하는 SQL문을 작성해주세요. 이때 결과는 보호 기간이 긴 순으로 조회해야 합니다.
+
+SELECT A.ANIMAL_ID, A.NAME
+FROM ANIMAL_INS A, ANIMAL_OUTS B
+WHERE A.ANIMAL_ID = B.ANIMAL_ID
+ORDER BY B.DATETIME-A.DATETIME DESC # 모 없다 그냥 하면 된다.
+LIMIT 2
