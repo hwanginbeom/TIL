@@ -1,0 +1,372 @@
+1.데이터, 데이터베이스 그리고 DBMS
+
+데이터베이스란 데이터를 모아 놓은 것으로, 이런 데이터베이스를 관리하는 소프트웨어가 바로 DBMS다.
+데이터를 저장하고 꺼내보고, 저장된 데이터를 수정하거나 삭제하는 행위를 의마하는데, 이런 일련의 작업을 DBMS가 처리한다.
+
+2.관계형 데이터베이스란
+	1.
+관계형 데이터베이스 개념과특징
+
+		1.
+관계형 데이터 베이스란 관계형 모델을 기반으로 데이터 베이스를 관리하는 시스템이다.
+		2.
+2차원 구조에 데이터를 분리해 저장하고, 필요한 데이터는 테이블간에 관계를 맺어 추출하는 것
+		3.
+컬럼 - 데이터의 속성 / 행은 로우
+		4.
+R은 관계를 의미 / 테이블을 분리하고 테이블 간에 연결고리 역할을 하는 컬럼을 두어 이 컬럼을 이용해 관계를 맺는것
+		5.
+키 컬럼 - 데이터 무결성(올바른 데이터 유지)을 위해 하나의 키가 되는 컬럼을 권고하고 있다.
+		6.
+기본키 - 유일한 값, NULL이 아닌 값, 유일한 식별자,  / 이 키와 관계를 맺을때 사용하는 것은 참조키
+		7.
+트랜잭션 -  일련의 작업 과정 전체가 유기적으로 돌아가게끔 하는것 하나라도 오류가 발생시 처음으로 돌아가게끔 한다. 저장이 안되게 한다.
+	2.
+RDBMS의 종류
+
+		1.
+오라클 - 대표적인 RDBMS / 사용이 많아지는 추세 / 가격이 비싸다 / 빠르다
+		2.
+IBM DB2 - 많은 기업과 금융권에서 사용하고 있다.
+		3.
+MS - SQL SERVER - 그저 그럼
+		4.
+MySQL - 무료여서 인기를 끌었다. 무료버전과 사용버전으로 나눠져있다. 시장 점유율 1,2를 차지하고 있다.
+		5.
+PostgreSQL - 객체 관계형 데이터베이스  / 라이선스 비용이 없다 / 성능 튜닝 비용이 적다 / 신뢰성 안정서
+		6.
+MariaDB - 무료  /
+
+
+
+3.SQL 입문
+	1.
+SQL이란 - Structured Query Language 구조화 된 질의 언어 / 집합적 언어 / 조건에 맞는 데이터 전체를 한 번에  처리하기 때문
+	2.
+SQL표준 - ANSI(미국 표준) / ISO(국제 표준)
+	3.
+SQL의 종류
+
+		1.
+DDL( Data Definition Language ) - 데이터 정의어로서 객체들을 생성하고 삭제, 수정하는데 사용
+
+			1.
+CREATE - 테이블 생성
+			2.
+DROP - 테이블 삭제
+			3.
+ALTER - 테이블 수정
+			4.
+TRUNCATE TABLE - 모든 데이터 삭제
+			5.
+RENAME - 객체 이름 변경
+		2.
+DML(Data Manipulation Language) - 데이터 조작어
+
+			1.
+SELECT - 테이블이나 뷰에서 데이터를 조회
+			2.
+INSERT - 데이터를 입력 (insert into 컬럼 values 어쩌고)
+			3.
+UPDATE - 데이터를 수정 (update set where)
+			4.
+DELETE - 데이터 삭제 (delete from 어쩌고 where)
+			5.
+MERGE -  조건에 따라 INSERT와 UPDATE를 수행
+		3.
+TCL - 트랜잭션 제어어
+
+			1.
+COMMIT - DML로 변경된 데이터를 DB에 적용
+			2.
+ROLLBACK - DML로 변경된 데이터를 변경 이전 상태로 되돌린다.
+		4.
+DCL - 데이터 제어어
+
+			1.
+GRANT - 객체에 대한 권한
+			2.
+REVOKE - 객체에 할당된 권한을 회수
+	4.
+테이블생성
+
+		1.
+구문
+
+
+
+CREATE TABLE table_name(
+    colunm_name1 datatype [NOT] NULL,
+    colunm_name1 datatype [NOT] NULL
+  PRIMARY KEY(column_list)
+);
+
+		1.
+컬럼의 데이터 형 - char(고정) / varchar(유동) / number/ date
+		2.
+NULL - 컬럼에 값이 안들어감
+		3.
+기본키 - 유일한 값, 식별자 역할 , PRIMARY KEY, NOT NULL
+
+
+
+
+4.데이터 입력과 삭제
+	1.
+INSERT문
+
+
+
+1.
+INSERT INTO 테이블 명(column1,column2)
+VALUES (값1, 값2)
+
+2.
+INSERT INTO 테이블 명
+VALUES (값1, 값 2)
+
+3.
+INSERT INTO 테이블 명 (column1, column2)
+SELECT 문장
+	1.
+DELETE문
+
+
+
+DELETE FROM 테이블 명
+WHERE 조건
+
+
+
+5.데이터 조회 SELECT문
+	1.
+기본구문
+
+
+
+SELECT column
+FROM 테이블 명
+WHERE 조건
+ORDER BY 정렬순서
+	1.
+조건에 맞는 데이터 조회하기
+
+		1.
+WHERE
+		2.
+LIKE
+		3.
+IN
+		4.
+BETWEEN
+
+
+
+# WHERE 절
+SELECT *
+FROM 테이블명
+WHERE station_name ='잠실(216)'
+ = /  !=, <> / > / < / <= / >
+
+# LIKE 절
+WHERE 컬럼명 LIKE '도로롱'
+
+#IN
+SELECT *
+FROM SUBWAY_STATISTICS
+WHERE station_name LIKE '선릉%' AND boarding_time IN (7,9);
+
+#BETWEEN 연산자
+SELECT *
+FROM SUBWAY_STATISTICS
+WHERE station_name LIKE '선릉%' AND BETWEEN 500 AND 1000;
+
+
+	1.
+데이터 정렬하기
+
+		1.
+ORDER BY(오름차순 ) DESC (내림차순)
+
+
+
+
+6.SQL 연산자와 함수
+	1.
+SQL 연산자
+
+		1.
++ , - , *, /, ||
+	2.
+주요 SQL 함수
+
+		1.
+숫자형 함수
+
+			1.
+ABS(n) -절대값
+			2.
+CEIL(n) - n과 같거나 큰 최소 정수 반환 => 10.6 ->11
+			3.
+EXP(n) - n승 반환
+			4.
+FLOOR(n) - n과 같거나 작은 최대 정수 반환 => 10.6 ->10
+			5.
+MOD(n2,n1) - n2를 n1로 나눈 나머지 반환 => 11 , 4 -> 3
+			6.
+POWER(n2,n1) - n2의 n1승을 반환 -> 3,2 -> 9
+			7.
+ROUND - 반올림 - > 10.545,2 => 10.55
+			8.
+SQRT(n) - n의 제곱근 값을 반환
+			9.
+TRUNC(n1,n2) - 소수점 삭제 - 10.545,2 -> 10.54
+		2.
+문자형 함수
+
+			1.
+CHR(n) - 아스키 코드값
+			2.
+CONCAT - CONCAT('a','b') -> ab
+			3.
+
+	3.
+기타함수
+	4.
+CASE 표현식
+
+
+
+CASE
+        WHEN condition1
+            THEN return_expr1
+         ELSE else_expr
+END
+
+7.데이터 집계
+	1.
+GROUP BY 절과 집계함수
+
+		1.
+GROUP BY
+
+
+
+SELECT *
+FROM 테이블명
+GROUP BY 컬럼명
+                2.집계함수
+
+
+			1.
+count
+			2.
+max
+			3.
+min
+			4.
+sum
+			5.
+avg
+			6.
+variance
+			7.
+stddev
+	1.
+HAVING절
+
+		1.
+DISTINCT - 중복제거
+
+
+
+SELECT DISTINCT station_name
+FROM 테이블명
+
+8.집합쿼리
+	1.
+UNION ALL - 각 조회가 모두 조회 (중복되서 나온다)
+	2.
+UNION - 합집합(중복된건 안나온다)
+	3.
+INTERSECT - 교집합(중복데이터만 추출)
+	4.
+MINUS - 차집합 (첫번째 결과 집합에서 두번째 결과 집합을 뺀다)
+
+
+
+9.테이블 간 관계 맺기 - 조인
+	1.
+조인이란 - 테이블간의 관계를 연결
+
+
+	1.
+내부조인 - 조인 컬럼값이 같은 건을 조회(교집합)
+
+
+
+select
+from ab a
+inner join bc b
+on a.id = b.id
+
+
+	1.
+외부조인 - 두 테이블 중 한 테이블의 조인 컬럼 값이 없더라도 없는 건 까지 모두 포함해 조회
+
+
+
+select
+from ab a
+left join bc b
+on a.id = b.id
+
+
+	1.
+카티션 곱 - where절에 조인 조건을 주지 않는 것/ 모든 조합의 데이터가 조회
+
+
+
+
+10.서브쿼리
+	1.
+서브쿼리란 - 보조 쿼리 하위 쿼리
+	2.
+스칼라 서브쿼리 - select 절에 쓰여지는 서브쿼리
+	3.
+인라인 뷰 - from 절에 사용 되는 서브쿼리
+	4.
+중첩 서브쿼리 - where 절에 사용되는 서브 쿼리
+	5.
+세미 조인과 안티 조인 - EXISTS나 IN 연산자 / NOT IN (안티 조인)
+
+
+
+11.데이터 입력과 삭제 그리고 수정
+	1.
+INSERT
+
+
+
+INSERT INTO subway_dml_test
+SELECT *
+FROM subway_statistics
+WHERE station_name LIKE '종합운동장%'
+
+	1.
+DELETE
+
+
+
+INSERT INTO subway_dml_test
+WHERE station_name LIKE '종합운동장%'
+
+
+	1.
+UPDATE
+
+
+
+UPDATE subway_dml_test
+SET passenger_number = passenger_number+10
+WHERE station_name LIKE '삼성%';
