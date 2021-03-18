@@ -21,128 +21,69 @@
 출력
 예은이가 얻을 수 있는 최대 아이템 개수를 출력한다.
 '''
+import sys
+import heapq
 
-# 다익스트라의 빠른 실행을 위해 heapq 모듈 import
-import heapq, sys
+input = sys.stdin.readline
 
-# 최대값 할당
-INF = 99999999999999999999999
+INF = int(1e9)  # 무한을 의미하는 값으로 10억을 설정
 
-# 입력부
-vertex, limit, edge = map(int, sys.stdin.readline().split())
-item = list(map(int, sys.stdin.readline().split()))
+# 노드의 개수, 간선의 개수를 입력받기
+node, search_scope, route = map(int, input().split())
+# node, search_scope, route = 5, 5, 4
 
-# 인접 리스트 생성
-adj = [[] for _ in range(vertex)]
-for i in range(edge):
-    x, y, z = map(int, sys.stdin.readline().split())
-    adj[x - 1].append((y - 1, z))
-    adj[y - 1].append((x - 1, z))
+item_value = [int(x) for x in input().split()]
+# item_value  = [5, 7, 8, 2, 3]
 
+# 시작 노드번호를 입력받기
+# start = int(input())
 
-# dijkstra : 다익스트라 알고리즘 함수
-def dijstra(v):
-    d[v] = 0
-    min_q = []
-    min_q.append((d[v], v))
-    while len(min_q) != 0:
-        distance = min_q[0][0]
-        current = min_q[0][1]
-        heapq.heappop(min_q)
-        if d[current] < distance:
+# 각 노드에 연결되어 있는 노드에 대한 정보를 담는 리스트를 만들기
+graph = [[]for i in range(node + 1)]
+
+# 모든 간선 정보를 입력 받기
+for _ in range(route):
+    a, b, c = map(int, input().split())
+#     a번 노드에서 b번 노드로 가는 비용이 c라는 의미
+    graph[a].append((b, c))
+    graph[b].append((a, c))
+# graph = [[], [(4, 5), (2, 3)], [(5, 4), (3, 3), (1, 3)], [(2, 3)], [(1, 5)], [(2, 4)]]
+
+def dijkstra(start):
+    q = []
+    # 시작 노드에 대해서 초기화
+    heapq.heappush(q,(0,start))
+    distance[start] = 0
+    while q:
+        dist, now = heapq.heappop(q)
+        if distance[now] < dist:
             continue
-        for i in range(len(adj[current])):
-            next = adj[current][i][0]
-            nextdistance = adj[current][i][1] + distance
-            if nextdistance < d[next]:
-                d[next] = nextdistance
-                heapq.heappush(min_q, (nextdistance, next))
+        for i in graph[now]:
+            cost = dist + i[1]
+            if cost < distance[i[0]]:
+                distance[i[0]] = cost
+                heapq.heappush(q, (cost, i[0]))
 
 
-# 각 정점에 대해 다익스트라 실행
-ans = 0
-for i in range(vertex):
-    d = [INF] * vertex
-    dijstra(i)
-    cnt = item[i]
-    for j in range(vertex):
-        # 만일 j가 i가 아니고 수색범위 이내라면
-        # cnt에 정점 j에서 얻을 수 있는 아이템 수를 더해줌
-        if d[j] != 0 and d[j] <= limit:
-            cnt += item[j]
-    # 최대값 갱신
-    if ans < cnt:
-        ans = cnt
-print(ans)
-
-
-
-#
-#
-# import heapq  # 우선순위 큐 구현을 위함
-#
-#
-# def dijkstra(graph, start, ranges, area):
-#     # distances = {node: float('inf') for node in graph}  # start로 부터의 거리 값을 저장하기 위함
-#     # INF = int(1e9)  # 무한을 의미하는 값으로 10억을 설정
-#     distances = [0] * (area + 1)
-#     # print(distances)
-#     distances[start] = 0  # 시작 값은 0이어야 함
-#     queue = []
-#     heapq.heappush(queue, [distances[start], start])  # 시작 노드부터 탐색 시작 하기 위함.
-#     # print(queue, [distances[start], start])
-#     # print(graph)
-#     while queue:  # queue에 남아 있는 노드가 없으면 끝
-#         # print(queue)
-#         current_distance, current_destination = heapq.heappop(queue)  # 탐색 할 노드, 거리를 가져옴.
-#         # print(current_distance)
-#         # print(current_destination )
-#         # print(current_distance)
-#         if ranges < current_distance:  # 기존에 있는 거리보다 길다면, 볼 필요도 없음
-#             continue
-#         # print(graph[current_destination])
-#         for i in graph[current_destination]:
-#             new_destination = i[0]
-#             new_distance = i[1]
-#
-#             distance = current_distance + new_distance  # 해당 노드를 거쳐 갈 때 거리
-#             if distance <= ranges:  # 알고 있는 거리 보다 작으면 갱신
-#                 distances[new_destination] = distance
-#                 heapq.heappush(queue, [distance, new_destination])  # 다음 인접 거리를 계산 하기 위해 큐에 삽입
-#             # else:
-#             #     distances
-#
-#     return distances
-#
-#
-# area, ranges, way = map(int, input().split())
-# # area, ranges, way = 5, 5, 4
-#
-# # print(area, ranges, way)
-# items = [int(x) for x in input().split()]
-# # items = [5, 7, 8, 2, 3]
-# #
-# graph = [[]for i in range(area + 1)]
-#
-# for _ in range(way):
-#     a, b, c = map(int, input().split())
-#     graph[a].append((b, c))
-#     graph[b].append((a, c))
-# # graph = [[], [(4, 5), (2, 3)], [(5, 4), (3, 3), (1, 3)], [(2, 3)], [(1, 5)], [(2, 4)]]
-# # print(graph)
-# # print(graph)
-#
-#
-# graph2 = []
-# sum_items  = []
-# for start in range(1, area+1):
-#     # print(start)
-#     graph2 = dijkstra(graph, start, ranges, area)
-#     sum_item = items[start-1]
-#     for i in range(area+1):
-#         if graph2[i] != 0:
-#             sum_item += items[i-1]
-#     else:
-#         sum_items.append(sum_item)
-# print(sum_items)
-# print(max(sum_items))
+# 다익스트라 알고리즘을 수행
+# dijkstra(start)
+sum_list = []
+for i in range(1,node+1):
+    distance = [int(1e9)] * (node + 1)
+    dijkstra(i)
+    item_sum = 0
+    for j in range(1,len(distance)):
+        if distance[j] <= search_scope:
+            item_sum += item_value[j-1]
+    else:
+        sum_list.append(item_sum)
+    # print(distance)
+print(max(sum_list))
+# 모든 노드로 가기 위한 최단 거리를 출력
+# for i in range(1, n + 1):
+#     도달할 수없는 경우 , 무한 이라고 출력
+    # if distance[i] == INF:
+    #     print("INFINITY")
+    # 도달할 수 있는 경우 거리를 출력
+    # else:
+    #     print(distance[i])
