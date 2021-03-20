@@ -1,11 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="68609606-97ea-41d2-91f2-5f2f3313409f" name="Default Changelist" comment="">
+    <list default="true" id="68609606-97ea-41d2-91f2-5f2f3313409f" name="Default Changelist" comment="21.02.18 | source | 148.Climbing stairs(2579_dynamic)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/147.budget(2512_Binary search).py" beforeDir="false" afterPath="$PROJECT_DIR$/147.budget(2512_Binary search).py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/148.Climbing stairs(2579_dynamic).py" beforeDir="false" afterPath="$PROJECT_DIR$/148.Climbing stairs(2579_dynamic).py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dijkstra/1.Shortest path(1753).py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dijkstra/2.Special shortest path(1504).py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dijkstra/3.Unconfirmed destination(9370).py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dijkstra/4.Time machine(11657_ballmen).py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test2.py" beforeDir="false" afterPath="$PROJECT_DIR$/test2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/최단경로/file.md" beforeDir="false" afterPath="$PROJECT_DIR$/최단경로/file.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,37 +20,74 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/148.Climbing stairs(2579_dynamic).py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="21" column="18" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="38" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/test2.py">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/149.treasure(1026_sort).py">
+        <entry file="file://$PROJECT_DIR$/150.dijkstra - 14938(sogang ground).py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="494">
-              <caret line="26" column="18" lean-forward="true" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="18" />
+            <state relative-caret-position="254">
+              <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
+              <folding>
+                <element signature="e#1041#1051#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/146.best seller(1302_sort).py">
+        <entry file="file://$PROJECT_DIR$/최단경로/2.Special shortest path(1504_Dijkstra).py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="2" selection-start-line="2" selection-end-line="5" selection-end-column="29" />
+            <state relative-caret-position="570">
+              <caret line="31" column="18" selection-start-line="31" selection-end-line="32" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/147.budget(2512_Binary search).py">
+        <entry file="file://$PROJECT_DIR$/최단경로/1.Shortest path(1753_Dijkstra).py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="1" selection-end-column="47" />
+            <state relative-caret-position="513">
+              <caret line="28" column="16" selection-start-line="28" selection-start-column="16" selection-end-line="28" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/최단경로/3.Unconfirmed destination(9370_Dijkstra).py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1634">
+              <caret line="87" column="12" selection-start-line="87" selection-start-column="12" selection-end-line="87" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/1.generator.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/1.generator - answer.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/2.Spiral Array.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/3.LCD Display.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/7.kakao (bakejoon 15943).py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1444">
+              <caret line="76" selection-start-line="76" selection-end-line="76" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -74,12 +115,19 @@
       <find>cost</find>
       <find>dist</find>
       <find>union_parent</find>
-      <find>print</find>
       <find>bfs</find>
       <find>end</find>
       <find>max_value</find>
       <find>result</find>
       <find>total_budget_list</find>
+      <find>heapq</find>
+      <find>graph</find>
+      <find>print</find>
+      <find>visited</find>
+      <find>dis</find>
+      <find>INF</find>
+      <find>adjList</find>
+      <find>sequence</find>
     </findStrings>
     <replaceStrings>
       <replace>queue</replace>
@@ -91,28 +139,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/113.Prefix sum(backjon).py" />
-        <option value="$PROJECT_DIR$/114.Prefix sum(backjon)2.py" />
-        <option value="$PROJECT_DIR$/116.Lost parenthesis.py" />
-        <option value="$PROJECT_DIR$/116.Lost parenthesis(greedy).py" />
-        <option value="$PROJECT_DIR$/105.star.py" />
-        <option value="$PROJECT_DIR$/107.Workbook.py" />
-        <option value="$PROJECT_DIR$/106.Goldbach's Guess.py" />
-        <option value="$PROJECT_DIR$/110.Sieve of Eratosthenes wrong.py" />
-        <option value="$PROJECT_DIR$/117.N and M.py" />
-        <option value="$PROJECT_DIR$/117.N and M(4).py" />
-        <option value="$PROJECT_DIR$/115.coin(greedy).py" />
-        <option value="$PROJECT_DIR$/118.Operator embedding(implaemented).py" />
-        <option value="$PROJECT_DIR$/119.card2(stack).py" />
-        <option value="$PROJECT_DIR$/120.zero(stack).py" />
-        <option value="$PROJECT_DIR$/121.factorial(recursive).py" />
-        <option value="$PROJECT_DIR$/122..py" />
-        <option value="$PROJECT_DIR$/66.network(DFS).py" />
-        <option value="$PROJECT_DIR$/122.Complex numbering(DFS).py" />
-        <option value="$PROJECT_DIR$/123.tomato.py" />
-        <option value="$PROJECT_DIR$/123.tomato(BFS).py" />
-        <option value="$PROJECT_DIR$/124.Serial number(sort).py" />
-        <option value="$PROJECT_DIR$/125.Router installation(Binary search).py" />
         <option value="$PROJECT_DIR$/126.RGB distance(dynamic).py" />
         <option value="$PROJECT_DIR$/127.party(dijkstra).py" />
         <option value="$PROJECT_DIR$/128.scale(floyd warshall).py" />
@@ -133,23 +159,45 @@
         <option value="$PROJECT_DIR$/141.2020 kakao blind recruitment -.py" />
         <option value="$PROJECT_DIR$/142.room number(1475_implemented).py" />
         <option value="$PROJECT_DIR$/143.good word(3986_stack).py" />
-        <option value="$PROJECT_DIR$/test.py" />
         <option value="$PROJECT_DIR$/1111111.py" />
         <option value="$PROJECT_DIR$/144.hanoi(11729_recursion).py" />
         <option value="$PROJECT_DIR$/145.AC(5430).py" />
         <option value="$PROJECT_DIR$/146.best seller(1302_sort).py" />
         <option value="$PROJECT_DIR$/147.budget(2512_Binary search).py" />
-        <option value="$PROJECT_DIR$/test2.py" />
         <option value="$PROJECT_DIR$/148.Climbing stairs(2579_dynamic).py" />
         <option value="$PROJECT_DIR$/149.treasure(1026_sort).py" />
+        <option value="$PROJECT_DIR$/test.py" />
+        <option value="$PROJECT_DIR$/150.dijkstra - 14938(sogang ground).py" />
+        <option value="$PROJECT_DIR$/Dijkstra/1753 - Shortest path.py" />
+        <option value="$PROJECT_DIR$/Dijkstra/2.Special shortest path(1504).py" />
+        <option value="$PROJECT_DIR$/Dijkstra/3.Unconfirmed destination(9370).py" />
+        <option value="$PROJECT_DIR$/Dijkstra/4.Time machine .py" />
+        <option value="$PROJECT_DIR$/Dijkstra/5.floyd-warshall(11404_floyd-warshall).py" />
+        <option value="$PROJECT_DIR$/최단경로/5.floyd-warshall(11404_floyd-warshall).py" />
+        <option value="$PROJECT_DIR$/최단경로/6.kcm Travel(10217).py" />
+        <option value="$PROJECT_DIR$/최단경로/7.Exercise(1956_floyd warshall).py" />
+        <option value="$PROJECT_DIR$/최단경로/test.py" />
+        <option value="$PROJECT_DIR$/sort/1.number sort(2750_sort).py" />
+        <option value="$PROJECT_DIR$/위상정렬/1.Line up(2252_Phase alignment).py" />
+        <option value="$PROJECT_DIR$/위상정렬/2.Final rank (3665_Phase alignment).py" />
+        <option value="$PROJECT_DIR$/위상정렬/3..py" />
+        <option value="$PROJECT_DIR$/위상정렬/file.md" />
+        <option value="$PROJECT_DIR$/위상정렬/4..py" />
+        <option value="$PROJECT_DIR$/위상정렬/3.Workbook(1766_topology_sort).py" />
+        <option value="$PROJECT_DIR$/위상정렬/1.Line up(2252_topology_sort).py" />
+        <option value="$PROJECT_DIR$/위상정렬/test.py" />
+        <option value="$PROJECT_DIR$/위상정렬/4.음악프로그램(2623).py" />
+        <option value="$PROJECT_DIR$/최단경로/file.md" />
+        <option value="$PROJECT_DIR$/정렬/1.number sort(2750_sort).py" />
+        <option value="$PROJECT_DIR$/test2.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="264" />
-    <option name="y" value="15" />
-    <option name="width" value="981" />
-    <option name="height" value="1032" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="426" />
+    <option name="y" value="-24" />
+    <option name="width" value="984" />
+    <option name="height" value="1044" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -157,12 +205,31 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="source" type="b2602c69:ProjectViewProjectNode" />
+              <item name="source" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="source" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\hwang in beom\Desktop\TIL\algorithms\source\위상정렬" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -176,8 +243,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.149.treasure(1026_sort)">
-    <configuration name="146.best seller(1302_sort)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.1.number sort(2750_sort)">
+    <configuration name="1.Line up(2252_topology_sort)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="source" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -185,11 +252,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/위상정렬" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/146.best seller(1302_sort).py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/위상정렬/1.Line up(2252_topology_sort).py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -198,7 +265,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="147.budget(2512_Binary search)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="1.number sort(2750_sort)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="source" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -206,11 +273,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/정렬" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/147.budget(2512_Binary search).py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/정렬/1.number sort(2750_sort).py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -219,7 +286,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="148.Climbing stairs(2579_dynamic)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="3.Workbook(1766_topology_sort)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="source" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -227,11 +294,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/위상정렬" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/148.Climbing stairs(2579_dynamic).py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/위상정렬/3.Workbook(1766_topology_sort).py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -240,7 +307,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="149.treasure(1026_sort)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="4.음악프로그램(2623)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="source" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -248,11 +315,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/위상정렬" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/149.treasure(1026_sort).py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/위상정렬/4.음악프로그램(2623).py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -261,7 +328,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="test2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="test (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="source" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -269,11 +336,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/위상정렬" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test2.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/위상정렬/test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -284,11 +351,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.149.treasure(1026_sort)" />
-        <item itemvalue="Python.test2" />
-        <item itemvalue="Python.148.Climbing stairs(2579_dynamic)" />
-        <item itemvalue="Python.147.budget(2512_Binary search)" />
-        <item itemvalue="Python.146.best seller(1302_sort)" />
+        <item itemvalue="Python.1.number sort(2750_sort)" />
+        <item itemvalue="Python.4.음악프로그램(2623)" />
+        <item itemvalue="Python.1.Line up(2252_topology_sort)" />
+        <item itemvalue="Python.test (1)" />
+        <item itemvalue="Python.3.Workbook(1766_topology_sort)" />
       </list>
     </recent_temporary>
   </component>
@@ -302,20 +369,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1603840071531</updated>
-    </task>
-    <task id="LOCAL-00012" summary="20.11.22 | source | 88.kcm_travel">
-      <created>1606035928525</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1606035928525</updated>
-    </task>
-    <task id="LOCAL-00013" summary="20.11.22 | source | 90.trinagle">
-      <created>1606053068766</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1606053068767</updated>
     </task>
     <task id="LOCAL-00014" summary="20.11.22 | source | 91.node_shorter">
       <created>1606053109735</created>
@@ -646,24 +699,48 @@
       <option name="project" value="LOCAL" />
       <updated>1613582348719</updated>
     </task>
-    <option name="localTasksCounter" value="61" />
+    <task id="LOCAL-00061" summary="21.02.18 | source | 148.Climbing stairs(2579_dynamic)">
+      <created>1613658059320</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1613658059322</updated>
+    </task>
+    <task id="LOCAL-00062" summary="21.03.19 | source | 150.dijkstra">
+      <created>1616096055720</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1616096055721</updated>
+    </task>
+    <option name="localTasksCounter" value="63" />
     <servers />
   </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
-    <frame x="176" y="10" width="654" height="688" extended-state="0" />
+    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.73920864" visible="true" weight="0.3872054" />
-      <window_info id="Structure" order="1" sideWeight="0.26079136" side_tool="true" visible="true" weight="0.3872054" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.73487544" visible="true" weight="0.151417" />
+      <window_info id="Structure" order="1" sideWeight="0.26512456" side_tool="true" weight="0.13445379" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.43076923" weight="0.3153153" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.6769231" weight="0.38256228" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.43076923" weight="0.3113879" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.6769231" weight="0.30604982" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.7459416" weight="0.28390595" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5692308" side_tool="true" weight="0.42704627" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3291815" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5692308" side_tool="true" weight="0.42704627" />
+      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.7459416" weight="0.28291816" />
       <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49635628" weight="0.3024911" />
       <window_info anchor="bottom" id="Python Console" order="10" sideWeight="0.49878544" weight="0.3291815" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -714,7 +791,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="20.12.04 | source | 117.N and M(backtracking)" />
     <MESSAGE value="20.12.04 | source | 118.Operator embedding(backtracking)" />
     <MESSAGE value="20.12.07 | source | 120.zero(stack)" />
     <MESSAGE value="20.12.08 | source | 121.factorial(recursive)" />
@@ -739,7 +815,8 @@
     <MESSAGE value="21.02.16 | source | 147.budget(2512_Binary search)" />
     <MESSAGE value="21.02.17 | source | 147.budget(2512_Binary search)" />
     <MESSAGE value="21.02.18 | source | 148.Climbing stairs(2579_dynamic)" />
-    <option name="LAST_COMMIT_MESSAGE" value="21.02.18 | source | 148.Climbing stairs(2579_dynamic)" />
+    <MESSAGE value="21.03.19 | source | 150.dijkstra" />
+    <option name="LAST_COMMIT_MESSAGE" value="21.03.19 | source | 150.dijkstra" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -830,14 +907,29 @@
           <option name="timeStamp" value="61" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/test2.py</url>
-          <line>17</line>
-          <option name="timeStamp" value="63" />
+          <url>file://$PROJECT_DIR$/150.dijkstra - 14938(sogang ground).py</url>
+          <line>50</line>
+          <option name="timeStamp" value="84" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/test2.py</url>
-          <line>11</line>
-          <option name="timeStamp" value="64" />
+          <url>file://$PROJECT_DIR$/150.dijkstra - 14938(sogang ground).py</url>
+          <line>42</line>
+          <option name="timeStamp" value="86" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/150.dijkstra - 14938(sogang ground).py</url>
+          <line>56</line>
+          <option name="timeStamp" value="87" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/최단경로/6.kcm Travel(10217_dijkstra).py</url>
+          <line>37</line>
+          <option name="timeStamp" value="88" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/최단경로/6.kcm Travel(10217_dijkstra).py</url>
+          <line>48</line>
+          <option name="timeStamp" value="90" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
@@ -848,200 +940,13 @@
         </breakpoint>
       </default-breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="PythonConfigurationType">
+        <watch expression="new_distance" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/123.tomato(BFS).py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="589">
-          <caret line="31" selection-start-line="31" selection-end-line="31" selection-end-column="28" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/122.Complex numbering(DFS).py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="30" column="8" lean-forward="true" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/121.factorial(recursive).py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="13" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/120.zero(stack).py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/118.Operator embedding(backtracking).py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="608">
-          <caret line="33" selection-start-line="33" selection-end-line="33" />
-          <folding>
-            <element signature="e#20#30#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/117.N and M_4((implaemented)).py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/116.Lost parenthesis(greedy).py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="20" selection-start-line="5" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/115.coin(greedy).py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/114.Prefix sum(backjon)2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="21" selection-start-line="7" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/79.Sugar delivery(dynamic).py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/126.RGB distance(dynamic).py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="44" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/87.Unconfirmed destination(dijkstra).py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/75.LAN cutting(Binary Search).py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/66.network(DFS).py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="20" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/110.Sieve of Eratosthenes wrong.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="30" column="13" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/83.shortest path(shortest path).py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="28" column="18" selection-start-line="28" selection-start-column="18" selection-end-line="28" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/84.Specific path(shot_path).py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="21" column="9" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/80.one_make(dynamic).py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="27" selection-start-line="27" selection-end-line="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/81.fibo(dynamic).py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/82.fibo2(dynamic).py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/86.Exercise(floyd_warshall_min).py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/136.2019 KAKAO BLIND RECRUITMENT - 실패율.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="25" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/137.2019 kakao winter internship.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/138.2018 KAKAO BLIND RECRUITMENT 비밀지도.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="15" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/134.two number sum.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/133.Right triangle.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="6" column="19" lean-forward="true" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/132.Strahler order.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/131.network connect(kruskalAlgorithm).py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="14" column="14" lean-forward="true" selection-start-line="14" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/130.friend(DisjointSet).py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/129.soHot(heap).py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="57">
@@ -1085,13 +990,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="608">
           <caret line="32" column="27" selection-end-line="40" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Anaconda3/Lib/codecs.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5890">
-          <caret line="310" selection-start-line="310" selection-end-line="310" />
         </state>
       </provider>
     </entry>
@@ -1154,17 +1052,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test.py">
+    <entry file="file://$PROJECT_DIR$/147.budget(2512_Binary search).py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        <state>
+          <caret selection-end-line="1" selection-end-column="47" />
         </state>
       </provider>
     </entry>
@@ -1182,17 +1073,187 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/147.budget(2512_Binary search).py">
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="1" selection-end-column="47" />
+        <state relative-caret-position="99">
+          <caret line="1734" selection-start-line="1734" selection-end-line="1734" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dijkstra/1753 - Shortest path.py" />
+    <entry file="file://$PROJECT_DIR$/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="24" column="19" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dijkstra/1.Shortest path(1753).py" />
+    <entry file="file://$PROJECT_DIR$/Dijkstra/3.Unconfirmed destination(9370).py" />
+    <entry file="file://$PROJECT_DIR$/Dijkstra/2.Special shortest path(1504).py" />
+    <entry file="file://$PROJECT_DIR$/Dijkstra/5.floyd-warshall(11404_floyd-warshall).py" />
+    <entry file="file://$PROJECT_DIR$/Dijkstra/4.Time machine(11657_ballmen).py" />
+    <entry file="file://$USER_HOME$/Anaconda3/Lib/codecs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="310" selection-start-line="310" selection-end-line="310" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/최단경로/7.Exercise(1956_floyd warshall).py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sort/1.number sort(2750_sort).py" />
+    <entry file="file://$PROJECT_DIR$/위상정렬/2.Final rank (3665_topology_sort).py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1862">
+          <caret line="99" column="11" selection-start-line="99" selection-start-column="11" selection-end-line="99" selection-end-column="11" />
+          <folding>
+            <element signature="e#985#1014#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/위상정렬/3.Workbook(1766_topology_sort).py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="532">
+          <caret line="28" column="3" selection-start-line="28" selection-start-column="3" selection-end-line="28" selection-end-column="3" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/149.treasure(1026_sort).py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="26" column="18" lean-forward="true" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="18" />
+        <state relative-caret-position="323">
+          <caret line="17" column="21" selection-start-line="17" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/위상정렬/file.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="169">
+            <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/최단경로/5.floyd-warshall(11404_floyd-warshall).py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="589">
+          <caret line="31" column="18" lean-forward="true" selection-start-line="31" selection-start-column="18" selection-end-line="31" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/최단경로/6.kcm Travel(10217_dijkstra).py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="34" column="33" selection-start-line="34" selection-start-column="33" selection-end-line="34" selection-end-column="33" />
+          <folding>
+            <element signature="e#904#914#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/최단경로/file.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="171">
+            <caret line="9" column="20" lean-forward="true" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/위상정렬/4.음악프로그램(2623).py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="291">
+          <caret line="83" column="110" selection-start-line="83" selection-start-column="110" selection-end-line="83" selection-end-column="110" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/최단경로/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-304">
+          <caret line="8" column="34" lean-forward="true" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/정렬/1.number sort(2750_sort).py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/위상정렬/1.Line up(2252_topology_sort).py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1178">
+          <caret line="62" selection-start-line="62" selection-end-line="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/위상정렬/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1558">
+          <caret line="82" column="27" selection-start-line="82" selection-start-column="27" selection-end-line="82" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/최단경로/2.Special shortest path(1504_Dijkstra).py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="31" column="18" selection-start-line="31" selection-end-line="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/최단경로/1.Shortest path(1753_Dijkstra).py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="28" column="16" selection-start-line="28" selection-start-column="16" selection-end-line="28" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/최단경로/3.Unconfirmed destination(9370_Dijkstra).py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1634">
+          <caret line="87" column="12" selection-start-line="87" selection-start-column="12" selection-end-line="87" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1.generator.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1.generator - answer.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2.Spiral Array.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3.LCD Display.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/7.kakao (bakejoon 15943).py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1444">
+          <caret line="76" selection-start-line="76" selection-end-line="76" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test2.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/150.dijkstra - 14938(sogang ground).py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="254">
+          <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
+          <folding>
+            <element signature="e#1041#1051#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
