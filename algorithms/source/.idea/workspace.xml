@@ -3,13 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="68609606-97ea-41d2-91f2-5f2f3313409f" name="Default Changelist" comment="21.02.18 | source | 148.Climbing stairs(2579_dynamic)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dijkstra/1.Shortest path(1753).py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dijkstra/2.Special shortest path(1504).py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dijkstra/3.Unconfirmed destination(9370).py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dijkstra/4.Time machine(11657_ballmen).py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2.py" beforeDir="false" afterPath="$PROJECT_DIR$/test2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/최단경로/file.md" beforeDir="false" afterPath="$PROJECT_DIR$/최단경로/file.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,22 +18,22 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/150.dijkstra - 14938(sogang ground).py">
+        <entry file="file://$PROJECT_DIR$/test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="254">
-              <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
-              <folding>
-                <element signature="e#1041#1051#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="438">
+              <caret line="24" column="19" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/최단경로/2.Special shortest path(1504_Dijkstra).py">
+        <entry file="file://$PROJECT_DIR$/150.dijkstra - 14938(sogang ground).py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="570">
-              <caret line="31" column="18" selection-start-line="31" selection-end-line="32" />
+            <state relative-caret-position="-590">
+              <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
+              <folding>
+                <element signature="e#1041#1051#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -193,7 +186,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="426" />
     <option name="y" value="-24" />
     <option name="width" value="984" />
@@ -726,7 +719,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <frame x="-7" y="-7" width="1295" height="695" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.73487544" visible="true" weight="0.151417" />
@@ -1081,13 +1074,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Dijkstra/1753 - Shortest path.py" />
-    <entry file="file://$PROJECT_DIR$/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="24" column="19" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Dijkstra/1.Shortest path(1753).py" />
     <entry file="file://$PROJECT_DIR$/Dijkstra/3.Unconfirmed destination(9370).py" />
     <entry file="file://$PROJECT_DIR$/Dijkstra/2.Special shortest path(1504).py" />
@@ -1249,11 +1235,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/150.dijkstra - 14938(sogang ground).py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="254">
+        <state relative-caret-position="-590">
           <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
           <folding>
             <element signature="e#1041#1051#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="438">
+          <caret line="24" column="19" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
         </state>
       </provider>
     </entry>
