@@ -1,40 +1,70 @@
 import time
 from selenium import webdriver  # selenium 프레임 워크에서 webdriver 가져오기
+import time
+import os
+from PIL import Image
+from selenium.webdriver.chrome.options import Options
 
 
+# 접속할 웹 사이트 주소
+url_list = [
+'https://app.powerbi.com/groups/me/apps/73511425-63b1-43c7-8e77-3cd09764bd17/reports/f2da154f-8158-4327-851c-f607a97c1a89/ReportSectionc6962d348acaad7aff69' ,
+'https://app.powerbi.com/groups/me/apps/73511425-63b1-43c7-8e77-3cd09764bd17/reports/f2da154f-8158-4327-851c-f607a97c1a89/ReportSectionc54b918c6275a0dccd56',
+'https://app.powerbi.com/groups/me/apps/73511425-63b1-43c7-8e77-3cd09764bd17/reports/f2da154f-8158-4327-851c-f607a97c1a89/ReportSectione492dfe5670b92500863',
+'https://app.powerbi.com/groups/me/apps/73511425-63b1-43c7-8e77-3cd09764bd17/reports/f2da154f-8158-4327-851c-f607a97c1a89/ReportSection56f31ed4bd34c3029748' ,
+'https://app.powerbi.com/groups/me/apps/73511425-63b1-43c7-8e77-3cd09764bd17/reports/f2da154f-8158-4327-851c-f607a97c1a89/ReportSection0c62168315e882971853',
+'https://app.powerbi.com/groups/me/apps/73511425-63b1-43c7-8e77-3cd09764bd17/reports/f2da154f-8158-4327-851c-f607a97c1a89/ReportSection56f31ed4bd34c3029748' ,
+'https://app.powerbi.com/groups/me/apps/73511425-63b1-43c7-8e77-3cd09764bd17/reports/1f94c6b4-d87a-4f38-970c-489e91292178/ReportSectionf9bd636eda0ec7108fe6'
+'https://app.powerbi.com/groups/me/apps/73511425-63b1-43c7-8e77-3cd09764bd17/reports/1f94c6b4-d87a-4f38-970c-489e91292178/ReportSectionf5400782ca8e8eb942b9',
+'https://app.powerbi.com/groups/me/apps/73511425-63b1-43c7-8e77-3cd09764bd17/reports/1f94c6b4-d87a-4f38-970c-489e91292178/ReportSection9320eeaf41069e081658',
+'https://app.powerbi.com/groups/me/apps/73511425-63b1-43c7-8e77-3cd09764bd17/reports/1f94c6b4-d87a-4f38-970c-489e91292178/ReportSection2fa930e464c333b22cce',
+'https://app.powerbi.com/groups/me/apps/73511425-63b1-43c7-8e77-3cd09764bd17/reports/1f94c6b4-d87a-4f38-970c-489e91292178/ReportSection3d8b43e1a1b3a1b0daa7'
+]
 
-url = 'https://app.powerbi.com/?route=groups%2fme%2fapps%2f73511425-63b1-43c7-8e77-3cd09764bd17%2freports%2ff2da154f-8158-4327-851c-f607a97c1a89%2fReportSectionc6962d348acaad7aff69&noSignUpCheck=1&pbi_source=weblandingsignin'        # 접속할 웹 사이트 주소 (네이버)
-driver = webdriver.Chrome('chromedriver.exe')  # 크롬 드라이버로 크롬 켜기
-driver.get(url)
-time.sleep(2) 
-driver.find_element_by_name('loginfmt').send_keys('boost@fnfcorp.com') # 아이디
+# 캡처 한 사진을 저장할 파일명
+title_list = [
+"610_Overview.png",
+"610_detail.png",
+"610_타겟팅 결과.png",
+"610_타겟팅 결과_매장지역.png",
+"610_구매제품 RANK.png",
+"620_캠페인 orverview.png",
+"620_유입및행동_마케팅유입지표orverview.png",
+"620_유입및행동_인기유입지표.png",
+"620_ROI.png",
+"620_구매고객 분석.png",
+"620_Funnel분석.png"
+]
+
+
+chrome_options = Options()
+chrome_options.add_argument('--headless')
+chrome_options.add_argument('--start-maximized')
+driver = webdriver.Chrome(chrome_options=chrome_options)
+driver.get("https://app.powerbi.com/?route=groups%2fme%2fapps%2f73511425-63b1-43c7-8e77-3cd09764bd17%2freports%2ff2da154f-8158-4327-851c-f607a97c1a89%2fReportSectionc6962d348acaad7aff69&noSignUpCheck=1&pbi_source=weblandingsignin")
+time.sleep(2)
+driver.find_element_by_name('loginfmt').send_keys('boost@fnfcorp.com')  # 아이디 입력
 driver.find_element_by_id('idSIButton9').click()
-time.sleep(2) 
-driver.find_element_by_name('passwd').send_keys('dlsqja5511!')  # 비밀번호
+time.sleep(2)
+driver.find_element_by_name('passwd').send_keys('dlsqja5511!')  # 비밀번호 입력
 driver.find_element_by_id('idSIButton9').click()
-time.sleep(2) 
+time.sleep(2)
 driver.find_element_by_id('idSIButton9').click()
-driver.maximize_window()
+time.sleep(2)
 
+for i in range(0, len(url_list)):
+    driver.maximize_window()
+    driver.get(url_list[i])
+    time.sleep(15)
+    ele = driver.find_element_by_class_name('visualContainerHost')
+    total_height = ele.size["height"]+500
+    # driver.set_window_size(1920, total_height)  # 전체사이즈로 캡처
+    driver.set_window_size(2500, 3000)  # 적당한 사이즈로 캡처
+    driver.save_screenshot('./dashboard/'+title_list[i])
 
-url = 'https://app.powerbi.com/groups/me/apps/73511425-63b1-43c7-8e77-3cd09764bd17/reports/f2da154f-8158-4327-851c-f607a97c1a89/ReportSectionc6962d348acaad7aff69'        # 접속할 웹 사이트 주소 
-driver.get(url)
-time.sleep(10) 
-driver.save_screenshot("./dashboard/610_Overview.png")
-
-url = 'https://app.powerbi.com/groups/me/apps/73511425-63b1-43c7-8e77-3cd09764bd17/reports/f2da154f-8158-4327-851c-f607a97c1a89/ReportSectione492dfe5670b92500863'        # 접속할 웹 사이트 주소 (네이버)
-driver.get(url)
-time.sleep(10) 
-driver.save_screenshot("./dashboard/610_타겟팅 결과.png")
-
-url = 'https://app.powerbi.com/groups/me/apps/73511425-63b1-43c7-8e77-3cd09764bd17/reports/f2da154f-8158-4327-851c-f607a97c1a89/ReportSection56f31ed4bd34c3029748'        # 접속할 웹 사이트 주소 (네이버)
-driver.get(url)
-time.sleep(10) 
-driver.save_screenshot("./dashboard/610_타겟팅 결과_매장지역.png")
-
-url = 'https://app.powerbi.com/groups/me/apps/73511425-63b1-43c7-8e77-3cd09764bd17/reports/f2da154f-8158-4327-851c-f607a97c1a89/ReportSection0c62168315e882971853'        # 접속할 웹 사이트 주소 (네이버)
-driver.get(url)
-time.sleep(15) 
-driver.save_screenshot("./dashboard/610_구매제품 RANK.png")
-
+    print(title_list[i] + "완료!")
+    # break
+else:
+    print('끄읏~')
 driver.close()
+driver.quit()
