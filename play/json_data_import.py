@@ -70,8 +70,8 @@ for i, record_dict in enumerate(record_list):
     # iterate over the values of each record dict object
     values = []
     for col_names, val in record_dict.items():
-        # if val == None:
-        #     val == 'NULL'
+        if val is None:
+            val = 'None'
         #     print(val)
         # Postgres strings must be enclosed with single quotes
         if type(val) == str:
@@ -80,16 +80,16 @@ for i, record_dict in enumerate(record_list):
             val = "'" + val + "'"
 
         values += [ str(val) ]
-
+    # print(values)
     # join the list of values and enclose record in parenthesis
     sql_string += "(" + ', '.join(values) + "),\n"
-    break
+
 # print(sql_string[0:10])
 # # remove the last comma and end statement with a semicolon
 sql_string = sql_string[:-2] + ";"
 
 # print ("\nSQL string:")
-print (sql_string)
+# print (sql_string)
 
 
 
@@ -98,10 +98,17 @@ print (sql_string)
 
 import psycopg2 # driver 임포트
 
-conn = psycopg2.connect(host='localhost', dbname='postgres',user='postgres',password='1234',port=5432)
-
+conn = psycopg2.connect(host='localhost', dbname='postgres', user='postgres', password='1234', port='5432') # db에 접속
 
 cur = conn.cursor() # 커서를 생성한다
 
-
 cur.execute(sql_string) # WRONG
+cur.execute("SELECT * FROM newtable;")
+print(cur.fetchone())
+
+# 데이터를 변경했다면 반드시 .commit() 해주어야 한다
+conn.commit()
+
+# 커서를 닫고 연걸을 종료한다.
+cur.close()
+conn.close()
